@@ -1,0 +1,723 @@
+ {% extends 'base.html' %}
+ {% load static %}
+ <!-- {% load i18n %} -->
+
+
+ {% block content %}
+
+ 
+    <section class="home-slider owl-carousel home-style">
+      <div class="slider-item bg-1" >
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+            <div class="col-md-6 col-sm-12 ftco-animate home-heading-style" data-scrollax=" properties: { translateY: '70%' }">
+              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Modern Dentistry in a Calm and Relaxed Environment" %}</h1>
+              <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Transform Your Smile with Modern Dentistry: Achieve Your Desired Perfect Smile through Innovative Techniques and Expert Care" %}</p>
+              <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="contact.html" class="btn btn-primary px-4 py-3" >{% translate "Make an Appointment" %}</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item bg-2" >
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+            <div class="col-md-6 col-sm-12 ftco-animate home-heading-style" data-scrollax=" properties: { translateY: '70%' }">
+              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Modern Achieve Your Desired Perfect Smile" %}</h1>
+              <p class="mb-4">{% translate "Transform Your Smile with Modern Dentistry: Achieve Your Desired Perfect Smile through Innovative Techniques and Expert Care" %}</p>
+              <p><a href="#" class="btn btn-primary px-4 py-3">{% translate "Make an Appointment" %}</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="ftco-intro home-section-1">
+    	<div class="container">
+    		<div class="row no-gutters">
+    			<div class="col-md-3 color-1 p-4">
+    				<h3 class="mb-4">{% translate "Emergency Cases" %}</h3>
+    				<p>{% translate "Please do not hesitate to contact me for any additional information or assistance required." %}</p>
+    				<span class="phone-number">+ (123) 456 7890</span>
+    			</div>
+    			<div class="col-md-3 color-2 p-4">
+    				<h3 class="mb-4">{% translate "Opening Hours" %}</h3>
+    				<p class="openinghours d-flex">
+    					<span>{% translate "Monday - Friday" %}</span>
+    					<span>8:00 - 19:00</span>
+    				</p>
+    				<p class="openinghours d-flex">
+    					<span>{% translate "Saturday" %}</span>
+    					<span>10:00 - 17:00</span>
+    				</p>
+    				<p class="openinghours d-flex">
+    					<span>{% translate "Sunday" %}</span>
+    					<span>10:00 - 16:00</span>
+    				</p>
+    			</div>
+    			<div class="col-md-6 color-3 p-4">
+    				<h3 class="mb-2">{% translate "Make an Appointment" %}</h3>
+    				<form action="{% url 'home' %}" class="appointment-form" method="post">
+						{% csrf_token %}
+	            <div class="row">
+	            	<div class="col-sm-4">
+	                <div class="form-group">
+			              <div class="select-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="examination-selection" id="nav-appointment-style" class="form-control">
+                      	<option value="Department">{% translate "Department" %}</option>
+                        <option value="Teeth Whitening">{% translate "Teeth Whitening" %}</option>
+                        <option value="Teeth CLeaning">{% translate "Teeth Cleaning" %}</option>
+                        <option value="Quality Brackets">{% translate "Quality Brackets" %}</option>
+                        <option value="Modern Anesthetic">{% translate "Modern Anesthetic" %}</option>
+                      </select>
+                    </div>
+			            </div>
+	              </div>
+	              <div class="col-sm-4">
+	                <div class="form-group">
+	                	<div class="icon"><span class="icon-user"></span></div>
+			              <input type="text" class="form-control" id="appointment_name" placeholder="{% translate 'Name' %}" name="name">
+			            </div>
+	              </div>
+	              <div class="col-sm-4">
+	                <div class="form-group">
+	                	<div class="icon"><span class="icon-paper-plane"></span></div>
+			              <input type="text" class="form-control" id="appointment_email" placeholder="Email" name="email">
+			            </div>
+	              </div>
+	            </div>
+	            <div class="row">
+	              <div class="col-sm-4">
+	                <div class="form-group">
+	                	<!-- <div class="icon"><span class="ion-ios-calendar"></span></div>
+	                  <input type="text" class="form-control appointment_date" placeholder="{% translate 'Date' %}" name="date"> -->
+	                </div>    
+	              </div>
+	              <div class="col-sm-4">
+	                <div class="form-group">
+	                	<!-- <div class="icon"><span class="ion-ios-clock"></span></div>
+	                  <input type="text" class="form-control appointment_time" placeholder="{% translate 'Time' %}" name="time"> -->
+	                </div>
+	              </div>
+	              <div class="col-sm-4">
+	                <div class="form-group">
+	                	<div class="icon"><span class="icon-phone2"></span></div>
+	                  <input type="text" class="form-control" id="phone" placeholder="{% translate 'Phone' %}" name="phone">
+	                </div>
+	              </div>
+	            </div>
+	            
+	            <div class="form-group">
+	              <input type="submit" value="{% translate 'Make an Appointment' %}" class="btn btn-primary">
+	            </div>
+	          </form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+  
+    <section class="ftco-section ftco-services">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-2">{% translate "Our Service Keeps you Smile" %}</h2>
+            <p> {% translate "We believe that a healthy smile is a confident smile; We're here to help you earn and keep that trust. Our vision: without compromising scientific, ethical, conscientious and humanitarian principles; modern treatments; To present it to you with our honest, reliable and experienced team." %}
+				
+				
+			</p>
+			<p>{% translate "At Blue Tulip, we pride ourselves on providing world-class services that will not only restore your oral health, but will also get you back to your radiant smile." %}</p>
+			<p>{% translate "With our friendly and experienced team, we restore your oral health in the comfort of your home. It protects your dental health with regular check-ups and treatments; We offer you a bright smile." %}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span ><img style="width: 120px;" src="{% static 'website/images/smile.gif' %}" alt="logo-tooth-extraction"></span>
+					<!-- class="flaticon-tooth-1" -->
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">{% translate "Teeth Whitening" %}</h3>
+                <p>{% translate "Teeth whitening is a cosmetic procedure to brighten discolored or stained teeth, enhancing your smile's aesthetics." %}</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span ><img style="width: 120px;" src="{% static 'website/images/clean-tooth.gif' %}" alt="logo-tooth-extraction"></span>
+					<!-- class="flaticon-dental-care" -->
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">{% translate "Teeth Cleaning" %}</h3>
+                <p>{% translate "A routine dental cleaning involves the removal of plaque and tartar buildup from your teeth. It helps prevent gum disease and keeps your smile fresh and healthy." %}</p>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span ><img style="width: 120px;" src="{% static 'website/images/tooth-extraction.gif' %}" alt="logo-tooth-extraction"></span> 
+					<!-- class="flaticon-tooth-with-braces" -->
+              </div>
+
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">{% translate "Extractions" %}</h3>
+                <p>{% translate "Dental extractions involve the removal of damaged or non-restorable teeth, often due to severe decay, infection, or crowding." %}</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span ><img style="width: 120px;" src="{% static 'website/images/tooth-drill.gif' %}" alt="logo-filing"></span>
+					<!-- class="flaticon-anesthesia" -->
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">{% translate "Fillings" %}</h3>
+                <p>{% translate "Dental fillings are used to repair cavities and restore damaged teeth. They can be made from materials like composite resin, amalgam, or porcelain." %}</p>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </div>
+      <div class="container-wrap mt-5">
+      	<div class="row d-flex no-gutters">
+      		<div class="col-md-6 img video-content-dental" >
+	
+			<video id="video-player" width="800" height="700" class="video-background" autoplay loop muted="background">
+				<source src="{% static 'website/images/dental-care.mp4' %}" type="video/mp4"></source>
+			</video>
+      		</div>
+      		<div class="col-md-6 d-flex">
+      			<div class="about-wrap">
+      				<div class="heading-section heading-section-white mb-5 ftco-animate">
+		            <h2 class="mb-2">{% translate "Blue Tulip with a personal touch" %}</h2>
+		            <p>{% translate "Join us in creating a world where every smile shines with confidence. Your smile's best friend is just a call away welcome to Blue Tulip." %}</p>
+		          </div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-check2"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>{% translate "Well Experience Dentist" %}</h3>
+	      					<p>{% translate "when you choose a well-experienced dentist, you're not just choosing a healthcare provider; you're choosing a partner in your oral health journey. You're choosing confidence, empathy, and a commitment to excellence." %}</p>
+      					</div>
+      				</div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-check2"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>{% translate "High Technology Facilities" %}</h3>
+	      					<p>{% translate "high-technology facilities have truly transformed the landscape of dentistry. They offer a glimpse into the future of oral healthcare, one that is characterized by precision, convenience, and patient-centric care. As we continue to embrace these advancements, we can look forward to even greater innovations that will further elevate the field of dentistry and keep our smiles healthy and radiant." %}</p>
+      					</div>
+      				</div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-check2"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>{% translate "Comfortable Clinics" %}</h3>
+	      					<p>{% translate "comfortable dental clinics are more than just places of treatment; they are sanctuaries of care and compassion. They reflect a commitment to patient well-being and a dedication to making dental visits not only painless but genuinely comfortable. As these clinics continue to redefine the dental experience, we can look forward to a future where oral healthcare is embraced with confidence and peace of mind." %}</p>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </section>
+
+
+    <section class="ftco-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-3">{% translate "Meet Our Experience Dentist" %}</h2>
+            <p>{% translate "Meet our experienced dentist, a dedicated professional committed to providing top-notch and ensuring your oral health is in the best hands." %}</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+      				<div class="img mb-4 person_5" ></div>
+      				<div class="info text-center">
+      					<h3><a href="teacher-single.html">Tom Smith</a></h3>
+      					<span class="position">{% translate "Dentist" %}</span>
+      					<div class="text">
+	        				<p>{% translate "A dentist is a healthcare professional dedicated to preserving and enhancing oral health, ensuring patients' smiles radiate confidence and well-being." %}</p>
+	        				<ul class="ftco-social">
+			              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+			            </ul>
+	        			</div>
+      				</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+      				<div class="img mb-4 person_6" ></div>
+      				<div class="info text-center">
+      					<h3><a href="teacher-single.html">Mark Wilson</a></h3>
+      					<span class="position">{% translate "Dentist" %}</span>
+      					<div class="text">
+	        				<p>{% translate "A dentist is a healthcare professional dedicated to preserving and enhancing oral health, ensuring patients' smiles radiate confidence and well-being." %}</p>
+	        				<ul class="ftco-social">
+			              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+			            </ul>
+	        			</div>
+      				</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+      				<div class="img mb-4 person_7" ></div>
+      				<div class="info text-center">
+      					<h3><a href="teacher-single.html">Patrick Jacobson</a></h3>
+      					<span class="position">{% translate "Dentist" %}</span>
+      					<div class="text">
+	        				<p>{% translate "A dentist is a healthcare professional dedicated to preserving and enhancing oral health, ensuring patients' smiles radiate confidence and well-being." %}</p>
+	        				<ul class="ftco-social">
+			              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+			            </ul>
+	        			</div>
+      				</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+      				<div class="img mb-4 person_8" ></div>
+      				<div class="info text-center">
+      					<h3><a href="teacher-single.html">Ivan Dorchsner</a></h3>
+      					<span class="position">{% translate "Dentist" %}</span>
+      					<div class="text">
+	        				<p>{% translate "A dentist is a healthcare professional dedicated to preserving and enhancing oral health, ensuring patients' smiles radiate confidence and well-being." %}</p>
+	        				<ul class="ftco-social">
+			              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+			              <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+			            </ul>
+	        			</div>
+      				</div>
+        		</div>
+        	</div>
+        </div>
+        <div class="row  mt-5 justify-conten-center">
+        	<div class="col-md-8 ftco-animate">
+        		<p>{% translate "Today, I have the distinct pleasure of introducing you to the heart of our dental practice - our experienced dentist. Our dentist isn't just a professional; they are a dedicated healthcare provider with a wealth of expertise and a genuine commitment to your oral health and overall well-being." %}</p>
+        	</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-counter img bg-1" id="section-counter"  data-stellar-background-ratio="0.5">
+    	<div class="container">
+    		<div class="row d-flex align-items-center">
+    			<div class="col-md-3 aside-stretch py-5">
+    				<div class=" heading-section heading-section-white ftco-animate pr-md-4">
+	            <h2 class="mb-3">{% translate "Achievements" %}</h2>
+	            <p>{% translate "Achievements are the tangible results of dedication, effort, and perseverance, showcasing our potential and progress." %}</p>
+	          </div>
+    			</div>
+    			<div class="col-md-9 py-5 pl-md-5">
+		    		<div class="row">
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="14">0</strong>
+		                <span>{% translate "Years of Experience" %}</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="4500">0</strong>
+		                <span>{% translate "Qualified Dentist" %}</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="4200">0</strong>
+		                <span>{% translate "Happy Smiling Customer" %}</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="320">0</strong>
+		                <span>{% translate "Patients Per Year" %}</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+	      </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-3">Our Best Pricing</h2>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          </div>
+        </div>
+    		<div class="row">
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Basic</h3>
+	        			<p><span class="price">$24.50</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Diagnostic Services</li>
+								<li>Professional Consultation</li>
+								<li>Tooth Implants</li>
+								<li>Surgical Extractions</li>
+								<li>Teeth Whitening</li>
+        			</ul>
+        			<p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Standard</h3>
+	        			<p><span class="price">$34.50</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Diagnostic Services</li>
+								<li>Professional Consultation</li>
+								<li>Tooth Implants</li>
+								<li>Surgical Extractions</li>
+								<li>Teeth Whitening</li>
+        			</ul>
+        			<p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry active pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Premium</h3>
+	        			<p><span class="price">$54.50</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Diagnostic Services</li>
+								<li>Professional Consultation</li>
+								<li>Tooth Implants</li>
+								<li>Surgical Extractions</li>
+								<li>Teeth Whitening</li>
+        			</ul>
+        			<p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Platinum</h3>
+	        			<p><span class="price">$89.50</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Diagnostic Services</li>
+								<li>Professional Consultation</li>
+								<li>Tooth Implants</li>
+								<li>Surgical Extractions</li>
+								<li>Teeth Whitening</li>
+        			</ul>
+        			<p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section-parallax">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+              <h2>{% translate "Subcribe to our Newsletter" %}</h2>
+              <p>{% translate "Subscribe to our newsletter to stay informed and receive regular updates, exclusive content, and valuable insights delivered directly to your inbox." %}</p>
+              <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder='{% translate "Enter email address" %}'>
+                      <input type="submit" value='{% translate "Subscribe" %}' class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section testimony-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-2">{% translate "Testimony" %}</h2>
+            <span class="subheading">{% translate "Our Happy Customer Says" %}</span>
+          </div>
+        </div>
+        <div class="row justify-content-center ftco-animate">
+          <div class="col-md-8">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_1">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "Taking my kids to the dentist used to be a struggle until we discovered Blue Tulip Dental Clinic. The staff is fantastic with children, and they create a welcoming atmosphere that makes dental visits enjoyable for my kids." %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">{% translate "Marketing Manager" %}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_2" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "As an adult considering braces, I was hesitant, but the team at Blue Tulip Dental Clinic put me at ease. They explained the entire orthodontic process, and now, my smile is straighter than ever. I couldn't be happier!" %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">{% translate "Interface Designer" %}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_3" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "I had a dental emergency over the weekend, and I was in excruciating pain. I called Blue Tulip Dental Clinic, and they were able to see me right away. The dentist provided prompt and expert care, and I'm so grateful for their responsiveness." %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">{% translate "UI Designer" %}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5 person_3">
+                  <div class="user-img mb-5" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "I had my teeth whitened at Blue Tulip Dental Clinic, and the results are incredible. My smile is noticeably brighter, and the procedure was quick and comfortable. I can't stop smiling!" %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">{% translate "Web Developer" %}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_1" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "As an adult considering braces, I was hesitant, but the team at Blue Tulip Dental Clinic put me at ease. They explained the entire orthodontic process, and now, my smile is straighter than ever. I couldn't be happier!" %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">{% translate "System Analytics" %}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-gallery">
+    	<div class="container-wrap">
+    		<div class="row no-gutters">
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center gallery-1" >
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center gallery-2" >
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center gallery-3" >
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center gallery-4" >
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-2">Latest Blog</h2>
+            <p>{% translate "I encourage you to explore the world of dental blogs. Dive into the articles, absorb the knowledge, and empower yourself with the information needed to maintain a healthy, radiant smile. Your oral health journey begins with the click of a button, and the possibilities are endless." %}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 image_1" >
+              </a>
+              <div class="text d-flex py-4">
+                <div class="meta mb-3">
+                  <div><a href="#">Sep. 20, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <div class="desc pl-3">
+	                <h3 class="heading"><a href="#">{% translate "Explore the connection between your diet and your dental health. Discover which foods are smile-friendly and which ones to consume in moderation." %}</a></h3>
+	              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry" data-aos-delay="100">
+              <a href="blog-single.html" class="block-20 image_2" >
+              </a>
+              <div class="text d-flex py-4">
+                <div class="meta mb-3">
+                  <div><a href="#">Sep. 20, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <div class="desc pl-3">
+	                <h3 class="heading"><a href="#">{% translate "Parents, learn how to establish good oral hygiene habits early, find the right toothbrush for your child, and make dental visits a positive experience." %}</a></h3>
+	              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry" data-aos-delay="200">
+              <a href="blog-single.html" class="block-20 image_3" >
+              </a>
+              <div class="text d-flex py-4">
+                <div class="meta mb-3">
+                  <div><a href="#">Sep. 20, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <div class="desc pl-3">
+	                <h3 class="heading"><a href="#">{% translate "Explore practical and effective tips for maintaining a dazzling smile, from proper brushing and flossing techniques to the benefits of mouthwash." %}</a></h3>
+	              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-quote">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6 pr-md-5 aside-stretch py-5 choose">
+    				<div class="heading-section heading-section-white mb-5 ftco-animate">
+	            <h2 class="mb-2">{% translate "Blue Tulip Procedure" %} &amp;{% translate "High Quality Services" %} </h2>
+	          </div>
+	          <div class="ftco-animate">
+	          	<p>{% translate "I'm delighted to introduce you to the Blue Tulip Procedure and the exceptional high-quality services it represents. Blue Tulip is not just a dental treatment; it's a testament to our unwavering commitment to your oral health and well-being." %}</p>
+	          	<ul class="un-styled my-5">
+	          		<li><span class="icon-check"></span>{% translate "innovation" %}</li>
+	          		<li><span class="icon-check"></span>{% translate "dedication" %}</li>
+	          		<li><span class="icon-check"></span>{% translate "cutting-edge technology" %}</li>
+	          	</ul>
+	          </div>
+    			</div>
+    			<div class="col-md-6 py-5 pl-md-5">
+    				<div class="heading-section mb-5 ftco-animate">
+	            <h2 class="mb-2">{% translate "Get a Free Quote" %}</h2>
+	          </div>
+	          <form action="#" class="ftco-animate">
+	          	<div class="row">
+	          		<div class="col-md-6">
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Full Name">
+		              </div>
+	              </div>
+	              <div class="col-md-6">
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Email">
+		              </div>
+	              </div>
+	              <div class="col-md-6">
+	              	<div class="form-group">
+		                <input type="text" class="form-control" placeholder="Phone">
+		              </div>
+		            </div>
+	              <div class="col-md-6">
+	              	<div class="form-group">
+		                <input type="text" class="form-control" placeholder="Website">
+		              </div>
+		            </div>
+		            <div class="col-md-12">
+		              <div class="form-group">
+		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+		              </div>
+		            </div>
+		            <div class="col-md-12">
+		              <div class="form-group">
+		                <input type="submit" value='{% translate "Get Quote" %}' class="btn btn-primary py-3 px-5">
+		              </div>
+	              </div>
+              </div>
+            </form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+		
+	<div id="map">Map In Here!!</div> 
+
+
+	{% endblock %}
+
+    

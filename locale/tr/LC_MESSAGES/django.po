@@ -1,0 +1,1409 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-09 00:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\dentist\settings.py:130
+msgid "English"
+msgstr ""
+
+#: .\dentist\settings.py:131
+msgid "Turkish"
+msgstr ""
+
+#: .\dentist\settings.py:132
+msgid "Dutch"
+msgstr ""
+
+#: .\dentist\urls.py:12
+msgid "admin/"
+msgstr ""
+
+#: .\website\templates\about.html:14 .\website\views.py:342
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: .\website\templates\about.html:30 .\website\views.py:343
+msgid "What we do"
+msgstr "Ne yapıyoruz"
+
+#: .\website\templates\about.html:32 .\website\views.py:344
+msgid "Our mission"
+msgstr "Görevimiz"
+
+#: .\website\templates\about.html:34 .\website\views.py:345
+msgid "Our goal"
+msgstr "Hedefimiz"
+
+#: .\website\templates\about.html:43 .\website\views.py:347
+msgid "We Offer High Quality Services"
+msgstr "Yüksek Kaliteli Hizmetler Sunuyoruz"
+
+#: .\website\templates\about.html:44 .\website\views.py:348
+msgid ""
+"Today, I am thrilled to share with you the essence of what we stand for in "
+"the world of dentistry: 'We Offer High-Quality Services.' These words are "
+"not just a statement but a promise that we uphold with unwavering commitment "
+"and dedication."
+msgstr ""
+"Bugün, diş hekimliği dünyasında neyi temsil ettiğimizin özünü sizlerle "
+"paylaşmanın heyecanını yaşıyorum: 'Yüksek Kaliteli Hizmetler Sunuyoruz.' Bu "
+"sözler sadece bir ifade değil, sarsılmaz bir bağlılık ve özveriyle yerine "
+"getirdiğimiz bir sözdür."
+
+#: .\website\templates\about.html:45 .\website\views.py:349
+msgid ""
+"When you step into our dental practice, you are stepping into an environment "
+"where excellence is the standard. From the moment you walk through our "
+"doors, you will experience the difference that high-quality dental services "
+"can make."
+msgstr ""
+"Diş hekimliği kliniğimize adım attığınızda mükemmelliğin standart olduğu bir "
+"ortama adım atıyorsunuz. Kapılarımızdan içeri girdiğiniz andan itibaren "
+"yüksek kaliteli dişhekimliği hizmetlerinin yaratabileceği farkı "
+"deneyimleyeceksiniz."
+
+#: .\website\templates\about.html:46 .\website\views.py:350
+msgid ""
+"Our team of skilled and compassionate professionals is dedicated to "
+"providing you with the finest care. Whether you seek routine check-ups, "
+"cosmetic enhancements, or restorative treatments, rest assured that your "
+"smile is in the hands of experts who prioritize your well-being."
+msgstr ""
+"Yetenekli ve şefkatli profesyonellerden oluşan ekibimiz, size en iyi bakımı "
+"sunmaya kendini adamıştır. Rutin kontroller, kozmetik iyileştirmeler veya "
+"onarıcı tedaviler arıyorsanız, gülümsemenizin sağlığınıza öncelik veren "
+"uzmanların elinde olduğundan emin olabilirsiniz."
+
+#: .\website\templates\about.html:47 .\website\views.py:351
+msgid ""
+"In conclusion, when we say, 'We Offer High-Quality Services,' we mean that "
+"your smile, your comfort, and your satisfaction are our top priorities. We "
+"are dedicated to providing you with dental care that not only meets but "
+"exceeds your expectations. We invite you to experience the difference for "
+"yourself and join us on a journey towards a healthier, more radiant smile."
+msgstr ""
+"Sonuç olarak 'Kaliteli Hizmet Sunuyoruz' derken, sizin gülümsemeniz, "
+"konforunuz ve memnuniyetiniz bizim önceliğimizdir. Size beklentilerinizi "
+"yalnızca karşılamakla kalmayıp aşan diş bakımı sağlamaya kendimizi adadık. "
+"Sizleri farkı kendiniz yaşamaya, daha sağlıklı, daha ışıltılı bir "
+"gülümsemeye doğru yolculuğa çıkmaya davet ediyoruz."
+
+#: .\website\templates\about.html:48 .\website\views.py:352
+msgid ""
+"Thank you for considering us as your partners in oral health, and we look "
+"forward to serving you with the utmost care and expertise."
+msgstr ""
+"Bizi ağız sağlığı konusunda ortağınız olarak gördüğünüz için teşekkür ederiz "
+"ve size azami özen ve uzmanlıkla hizmet vermeyi sabırsızlıkla bekliyoruz."
+
+#: .\website\templates\about.html:54 .\website\views.py:353
+msgid "To Accomodate All Patients"
+msgstr "Tüm Hastaları Barındırmak"
+
+#: .\website\templates\about.html:55 .\website\views.py:354
+msgid ""
+"We believe that quality dental care should be accessible to everyone, "
+"regardless of their unique needs, backgrounds, or circumstances. Our "
+"commitment to accommodating all patients is at the heart of everything we do."
+msgstr ""
+"Kaliteli diş bakımının, benzersiz ihtiyaçları, geçmişleri veya koşulları ne "
+"olursa olsun herkes için erişilebilir olması gerektiğine inanıyoruz. "
+"Yaptığımız her şeyin temelinde, tüm hastaları ağırlama taahhüdümüz yer alır."
+
+#: .\website\templates\about.html:56 .\website\views.py:355
+msgid ""
+"When you choose our dental practice, you're not just choosing a healthcare "
+"provider; you're choosing an inclusive and compassionate environment where "
+"your individuality is respected and valued."
+msgstr ""
+"Diş hekimliği muayenehanemizi seçtiğinizde sadece bir sağlık hizmeti "
+"sağlayıcısını seçmiyorsunuz; bireyselliğinize saygı duyulan ve değer verilen "
+"kapsayıcı ve şefkatli bir ortam seçiyorsunuz."
+
+#: .\website\templates\about.html:57 .\website\views.py:356
+msgid ""
+"But our commitment to accommodating all patients extends beyond the services "
+"we offer. We take pride in creating a welcoming and comfortable atmosphere "
+"where everyone feels at home. Our team is trained to provide care with "
+"sensitivity and empathy, ensuring that your experience is as stress-free as "
+"possible."
+msgstr ""
+"Ancak tüm hastaları ağırlama taahhüdümüz sunduğumuz hizmetlerin ötesine "
+"geçmektedir. Herkesin evindeymiş gibi hissedeceği sıcak ve konforlu bir "
+"atmosfer yaratmaktan gurur duyuyoruz. Ekibimiz, deneyiminizin mümkün "
+"olduğunca stressiz olmasını sağlamak için hassasiyet ve empatiyle bakım "
+"sağlamak üzere eğitilmiştir."
+
+#: .\website\templates\about.html:58 .\website\views.py:357
+msgid ""
+"Our dedication to accommodating all patients is not just about the here and "
+"now; it's about fostering long-term relationships built on trust and mutual "
+"respect. We want to be your partners in oral health, supporting you on your "
+"journey to a healthier and more radiant smile."
+msgstr ""
+"Tüm hastalara yardımcı olma konusundaki kararlılığımız sadece burada ve "
+"şimdi ile ilgili değildir; güven ve karşılıklı saygıya dayalı uzun vadeli "
+"ilişkileri teşvik etmekle ilgilidir. Ağız sağlığında partneriniz olmak, daha "
+"sağlıklı ve ışıltılı bir gülümsemeye giden yolculuğunuzda size destek olmak "
+"istiyoruz."
+
+#: .\website\templates\about.html:59 .\website\views.py:358
+msgid ""
+"Thank you for considering us as your dental care provider, and we look "
+"forward to welcoming you into our inclusive and caring dental family."
+msgstr ""
+"Bizi diş bakımı sağlayıcınız olarak gördüğünüz için teşekkür ederiz ve sizi "
+"kapsayıcı ve özenli diş hekimliği ailemize davet etmeyi sabırsızlıkla "
+"bekliyoruz."
+
+#: .\website\templates\about.html:65 .\website\views.py:359
+msgid "Help Our Customers Needs"
+msgstr "Müşterilerimizin İhtiyaçlarına Yardımcı Olun"
+
+#: .\website\templates\about.html:66 .\website\views.py:360
+msgid ""
+"Today, I want to shed light on a fundamental aspect of our dental practice: "
+"our unwavering commitment to 'Help Our Customers Needs.' At the heart of "
+"everything we do is a deep understanding that our patients are unique "
+"individuals with specific dental needs, and it is our privilege and "
+"responsibility to assist them in achieving optimal oral health."
+msgstr ""
+"Bugün diş hekimliği uygulamamızın temel bir yönüne ışık tutmak istiyorum: "
+"'Müşterilerimizin İhtiyaçlarına Yardımcı Olma' konusundaki sarsılmaz "
+"bağlılığımız. Yaptığımız her şeyin temelinde, hastalarımızın özel diş "
+"hekimliği ihtiyaçları olan benzersiz bireyler olduğunun derin bir anlayışı "
+"vardır ve onlara en iyi ağız sağlığına ulaşmalarında yardımcı olmanın "
+"ayrıcalığımız ve sorumluluğumuzdur."
+
+#: .\website\templates\about.html:67 .\website\views.py:361
+msgid ""
+"Our team of experienced professionals is committed to providing you with the "
+"highest standard of care. We take the time to listen to your concerns, "
+"answer your questions, and involve you in decisions regarding your dental "
+"health. Your active participation in your treatment is essential to us."
+msgstr ""
+"Deneyimli profesyonellerden oluşan ekibimiz, size en yüksek bakım "
+"standardını sunmaya kendini adamıştır. Endişelerinizi dinlemek, sorularınızı "
+"yanıtlamak ve diş sağlığınızla ilgili kararlara sizi dahil etmek için zaman "
+"ayırıyoruz. Tedavinize aktif katılımınız bizim için çok önemlidir."
+
+#: .\website\templates\about.html:68 .\website\views.py:362
+msgid ""
+"Moreover, our commitment to 'Help Our Customers Needs' extends beyond the "
+"chair. We are here to provide guidance and education, empowering you with "
+"the knowledge and tools to make informed decisions about your oral health. "
+"We believe that a well-informed patient is an empowered patient."
+msgstr ""
+"Üstelik 'Müşterilerimizin İhtiyaçlarına Yardımcı Olma' taahhüdümüz "
+"sandalyenin ötesine uzanıyor. Ağız sağlığınız hakkında bilinçli kararlar "
+"vermenizi sağlayacak bilgi ve araçlarla sizi güçlendirmek, rehberlik ve "
+"eğitim sağlamak için buradayız. İyi bilgilendirilmiş bir hastanın "
+"güçlendirilmiş bir hasta olduğuna inanıyoruz."
+
+#: .\website\templates\about.html:69
+msgid ""
+"In conclusion, when we say, 'Help Our Customers Needs,' we mean that your "
+"needs are at the forefront of our practice. Your smile is our mission, and "
+"we are dedicated to assisting you in achieving and maintaining optimal oral "
+"health. We are not just your dental care providers; we are your partners in "
+"a journey toward a healthier, happier smile."
+msgstr ""
+"Üstelik 'Müşterilerimizin İhtiyaçlarına Yardımcı Olma' taahhüdümüz "
+"sandalyenin ötesine uzanıyor. Ağız sağlığınız hakkında bilinçli kararlar "
+"vermenizi sağlayacak bilgi ve araçlarla sizi güçlendirmek, rehberlik ve "
+"eğitim sağlamak için buradayız. İyi bilgilendirilmiş bir hastanın "
+"güçlendirilmiş bir hasta olduğuna inanıyoruz."
+
+#: .\website\templates\about.html:88 .\website\templates\home.html:200
+#: .\website\views.py:273
+msgid "Blue Tulip with a personal touch"
+msgstr "Kişisel bir dokunuşla Blue Tulip"
+
+#: .\website\templates\about.html:89 .\website\templates\home.html:201
+#: .\website\views.py:274
+msgid ""
+"Join us in creating a world where every smile shines with confidence. Your "
+"smile's best friend is just a call away welcome to Blue Tulip."
+msgstr ""
+"Her gülümsemenin güvenle parladığı bir dünya yaratmak için bize katılın. "
+"Gülüşünüzün en iyi dostu bir telefon kadar yakınınızda Blue Tulip'ye hoş "
+"geldiniz."
+
+#: .\website\templates\about.html:96 .\website\templates\home.html:208
+#: .\website\views.py:275
+msgid "Well Experience Dentist"
+msgstr "Deneyimli Diş Hekimi"
+
+#: .\website\templates\about.html:97 .\website\templates\home.html:209
+#: .\website\views.py:276
+msgid ""
+"when you choose a well-experienced dentist, you're not just choosing a "
+"healthcare provider; you're choosing a partner in your oral health journey. "
+"You're choosing confidence, empathy, and a commitment to excellence."
+msgstr ""
+"Deneyimli bir diş hekimini seçtiğinizde sadece bir sağlık hizmeti "
+"sağlayıcısını seçmiş olmuyorsunuz; ağız sağlığı yolculuğunuzda bir ortak "
+"seçiyorsunuz. Güveni, empatiyi ve mükemmelliğe olan bağlılığı seçiyorsunuz."
+
+#: .\website\templates\about.html:105 .\website\templates\home.html:217
+#: .\website\views.py:277
+msgid "High Technology Facilities"
+msgstr "Yüksek Teknoloji Tesisleri"
+
+#: .\website\templates\about.html:106 .\website\templates\home.html:218
+#: .\website\views.py:278
+msgid ""
+"high-technology facilities have truly transformed the landscape of "
+"dentistry. They offer a glimpse into the future of oral healthcare, one that "
+"is characterized by precision, convenience, and patient-centric care. As we "
+"continue to embrace these advancements, we can look forward to even greater "
+"innovations that will further elevate the field of dentistry and keep our "
+"smiles healthy and radiant."
+msgstr ""
+"Yüksek teknoloji tesisleri diş hekimliğinin manzarasını gerçekten "
+"değiştirdi. Hassasiyet, kolaylık ve hasta odaklı bakım ile karakterize "
+"edilen ağız sağlığının geleceğine bir bakış sunuyorlar. Bu gelişmeleri "
+"benimsemeye devam ettikçe, diş hekimliği alanını daha da ileri taşıyacak ve "
+"gülümsemelerimizi sağlıklı ve ışıltılı tutacak daha büyük yenilikleri "
+"sabırsızlıkla bekleyebiliriz."
+
+#: .\website\templates\about.html:114 .\website\templates\home.html:226
+#: .\website\views.py:279
+msgid "Comfortable Clinics"
+msgstr "Konforlu Klinikler"
+
+#: .\website\templates\about.html:115 .\website\templates\home.html:227
+#: .\website\views.py:280
+msgid ""
+"comfortable dental clinics are more than just places of treatment; they are "
+"sanctuaries of care and compassion. They reflect a commitment to patient "
+"well-being and a dedication to making dental visits not only painless but "
+"genuinely comfortable. As these clinics continue to redefine the dental "
+"experience, we can look forward to a future where oral healthcare is "
+"embraced with confidence and peace of mind."
+msgstr ""
+"Konforlu diş klinikleri sadece tedavi mekanlarından çok daha fazlasıdır; "
+"onlar ilgi ve şefkatin sığınaklarıdır. Bunlar, hastanın sağlığına olan "
+"bağlılığı ve diş hekimi ziyaretlerini sadece ağrısız değil aynı zamanda "
+"gerçekten konforlu hale getirme konusundaki kararlılığı yansıtır. Bu "
+"klinikler diş hekimliği deneyimini yeniden tanımlamaya devam ettikçe, ağız "
+"sağlığının güvenle ve gönül rahatlığıyla benimsendiği bir geleceği "
+"sabırsızlıkla bekleyebiliriz."
+
+#: .\website\templates\about.html:128 .\website\templates\home.html:480
+#: .\website\views.py:308
+msgid "Testimony"
+msgstr "Tanıklık"
+
+#: .\website\templates\about.html:129 .\website\templates\home.html:481
+#: .\website\views.py:309
+msgid "Our Happy Customer Says"
+msgstr "Mutlu Müşterimiz Diyor ki"
+
+#: .\website\templates\about.html:143 .\website\templates\home.html:495
+#: .\website\views.py:310 .\website\views.py:316
+msgid ""
+"Taking my kids to the dentist used to be a struggle until we discovered Blue "
+"Tulip Dental Clinic. The staff is fantastic with children, and they create a "
+"welcoming atmosphere that makes dental visits enjoyable for my kids."
+msgstr ""
+"Blue Tulip Diş Kliniği'ni keşfedene kadar çocuklarımı dişçiye götürmek zorlu "
+"bir işti. Personelin çocuklarla iletişimi harika ve çocuklarım için diş "
+"muayenelerini keyifli hale getiren davetkar bir atmosfer yaratıyorlar."
+
+#: .\website\templates\about.html:145 .\website\templates\home.html:497
+#: .\website\views.py:311
+msgid "Marketing Manager"
+msgstr "Pazarlama Müdürü"
+
+#: .\website\templates\about.html:157 .\website\templates\about.html:199
+#: .\website\templates\home.html:509 .\website\templates\home.html:551
+#: .\website\views.py:312
+msgid ""
+"As an adult considering braces, I was hesitant, but the team at Blue Tulip "
+"Dental Clinic put me at ease. They explained the entire orthodontic process, "
+"and now, my smile is straighter than ever. I couldn't be happier!"
+msgstr ""
+"Diş teli kullanmayı düşünen bir yetişkin olarak tereddütlüydüm ama Blue "
+"Tulip Diş Kliniği'ndeki ekip beni rahatlattı. Tüm ortodontik süreci "
+"anlattılar ve artık gülümsemem her zamankinden daha düzgün. Daha mutlu "
+"olamazdım!"
+
+#: .\website\templates\about.html:159 .\website\templates\home.html:511
+#: .\website\views.py:313
+msgid "Interface Designer"
+msgstr "Arayüz Tasarımcısı"
+
+#: .\website\templates\about.html:171 .\website\templates\home.html:523
+#: .\website\views.py:314
+msgid ""
+"I had a dental emergency over the weekend, and I was in excruciating pain. I "
+"called Blue Tulip Dental Clinic, and they were able to see me right away. "
+"The dentist provided prompt and expert care, and I'm so grateful for their "
+"responsiveness."
+msgstr ""
+"Hafta sonu diş konusunda acil bir durum yaşadım ve dayanılmaz bir acı "
+"çekiyordum. Blue Tulip Diş Polikliniği'ni aradım ve hemen beni görebildiler. "
+"Diş hekimi hızlı ve uzman bir bakım sağladı ve duyarlılıkları için onlara "
+"çok minnettarım."
+
+#: .\website\templates\about.html:185 .\website\templates\home.html:537
+#: .\website\views.py:318
+msgid ""
+"I had my teeth whitened at Blue Tulip Dental Clinic, and the results are "
+"incredible. My smile is noticeably brighter, and the procedure was quick and "
+"comfortable. I can't stop smiling!"
+msgstr ""
+"Blue Tulip Diş Kliniğinde dişlerimi beyazlattım ve sonuçlar inanılmaz. "
+"Gülümsemem fark edilir derecede daha parlaktı ve prosedür hızlı ve rahattı. "
+"Gülümsemeyi bırakamıyorum!"
+
+#: .\website\templates\about.html:187 .\website\templates\home.html:539
+#: .\website\views.py:317
+msgid "Web Developer"
+msgstr "Web Geliştiricisi"
+
+#: .\website\templates\about.html:201 .\website\templates\home.html:553
+#: .\website\views.py:319
+msgid "System Analytics"
+msgstr "Sistem Analitiği"
+
+#: .\website\templates\about.html:216 .\website\templates\doctors.html:185
+#: .\website\templates\home.html:332 .\website\templates\services.html:186
+#: .\website\views.py:296
+msgid "Achievements"
+msgstr "Başarılar"
+
+#: .\website\templates\about.html:217 .\website\templates\doctors.html:186
+#: .\website\templates\home.html:333 .\website\templates\services.html:187
+#: .\website\views.py:297
+msgid ""
+"Achievements are the tangible results of dedication, effort, and "
+"perseverance, showcasing our potential and progress."
+msgstr ""
+"Başarılar, potansiyelimizi ve ilerlememizi sergileyen özveri, çaba ve azmin "
+"somut sonuçlarıdır."
+
+#: .\website\templates\about.html:226 .\website\templates\doctors.html:195
+#: .\website\templates\home.html:342 .\website\templates\services.html:196
+#: .\website\views.py:298
+msgid "Years of Experience"
+msgstr "Yılların Deneyimi"
+
+#: .\website\templates\about.html:234 .\website\templates\doctors.html:203
+#: .\website\templates\home.html:350 .\website\templates\services.html:204
+#: .\website\views.py:299
+msgid "Qualified Dentist"
+msgstr "Nitelikli Diş Hekimi"
+
+#: .\website\templates\about.html:242 .\website\templates\doctors.html:211
+#: .\website\templates\home.html:358 .\website\templates\services.html:212
+#: .\website\views.py:300
+msgid "Happy Smiling Customer"
+msgstr "Mutlu Gülümseyen Müşteri"
+
+#: .\website\templates\about.html:250 .\website\templates\doctors.html:219
+#: .\website\templates\home.html:366 .\website\templates\services.html:220
+#: .\website\views.py:301
+msgid "Patients Per Year"
+msgstr "Yıllık Hasta Sayısı"
+
+#: .\website\templates\appointment.html:15 .\website\templates\home.html:15
+#: .\website\templates\register.html:29 .\website\views.py:211
+msgid "Modern Dentistry in a Calm and Relaxed Environment"
+msgstr "Sakin ve Rahat Bir Ortamda Modern Diş Hekimliği"
+
+#: .\website\templates\appointment.html:16
+#: .\website\templates\appointment.html:29 .\website\templates\home.html:16
+#: .\website\templates\home.html:29 .\website\templates\register.html:30
+#: .\website\templates\register.html:43 .\website\views.py:213
+msgid ""
+"Transform Your Smile with Modern Dentistry: Achieve Your Desired Perfect "
+"Smile through Innovative Techniques and Expert Care"
+msgstr ""
+"Modern Diş Hekimliği ile Gülüşünüzü Dönüştürün: Yenilikçi Teknikler ve Uzman "
+"Bakımla İstediğiniz Mükemmel Gülüşe Kavuşun"
+
+#: .\website\templates\appointment.html:17
+#: .\website\templates\appointment.html:30 .\website\templates\base.html:498
+#: .\website\templates\home.html:17 .\website\templates\home.html:30
+#: .\website\templates\home.html:63 .\website\templates\home.html:116
+#: .\website\templates\register.html:31 .\website\templates\register.html:44
+#: .\website\views.py:210
+msgid "Make an Appointment"
+msgstr "Randevu Al"
+
+#: .\website\templates\appointment.html:28 .\website\templates\home.html:28
+#: .\website\templates\register.html:42 .\website\views.py:212
+msgid "Modern Achieve Your Desired Perfect Smile"
+msgstr "Modern İstediğiniz Mükemmel Gülümsemeyi Elde Edin"
+
+#: .\website\templates\base.html:493 .\website\templates\base.html:602
+#: .\website\views.py:208
+msgid "About"
+msgstr "Hakkımızda"
+
+#: .\website\templates\base.html:494 .\website\templates\base.html:603
+#: .\website\templates\services.html:15 .\website\views.py:206
+msgid "Services"
+msgstr "Hizmetlerimiz"
+
+#: .\website\templates\base.html:495 .\website\templates\base.html:604
+#: .\website\views.py:207
+msgid "Doctors"
+msgstr "Doktorlarımız"
+
+#: .\website\templates\base.html:497 .\website\templates\base.html:606
+#: .\website\views.py:209
+msgid "Contact"
+msgstr "iletişim"
+
+#: .\website\templates\base.html:590 .\website\views.py:337
+msgid ""
+"Explore the exciting world of teledentistry and how virtual consultations "
+"and remote monitoring are changing the way we access dental care"
+msgstr ""
+"Tele-diş hekimliğinin heyecan verici dünyasını ve sanal danışmanlık ile "
+"uzaktan izlemenin diş bakımına erişim şeklimizi nasıl değiştirdiğini keşfedin"
+
+#: .\website\templates\base.html:612 .\website\views.py:338
+msgid "Recent Blog"
+msgstr "Son Blog"
+
+#: .\website\templates\base.html:616 .\website\views.py:339
+msgid ""
+"helping others make informed choices about their oral healthcare providers."
+msgstr ""
+"başkalarının ağız sağlığı hizmeti sağlayıcıları hakkında bilinçli seçimler "
+"yapmasına yardımcı olmak."
+
+#: .\website\templates\base.html:627 .\website\views.py:340
+msgid "I found the dental blog incredibly informative and engaging"
+msgstr "Diş blogunu inanılmaz derecede bilgilendirici ve ilgi çekici buldum"
+
+#: .\website\templates\blog-single.html:15 .\website\templates\blog.html:15
+#: .\website\views.py:375
+msgid "Read Our Blog"
+msgstr "Blogumuzu Okuyun"
+
+#: .\website\templates\blog-single.html:26
+#: .\website\templates\blog-single.html:195 .\website\templates\blog.html:38
+#: .\website\templates\blog.html:177 .\website\views.py:376
+msgid ""
+"Unlocking the Secrets to a Beautiful Smile: Cosmetic Dentistry Explained"
+msgstr ""
+"Güzel Bir Gülümsemenin Sırlarını Çözmek: Estetik Diş Hekimliği Açıklaması"
+
+#: .\website\templates\blog-single.html:27 .\website\views.py:394
+msgid ""
+"Cosmetic dentistry is more than just a branch of dentistry; it's a form of "
+"artistry that has the power to transform lives. It's the magic wand that can "
+"turn dental imperfections into a symphony of radiance, boosting not just our "
+"appearance but also our self-esteem."
+msgstr ""
+"Estetik diş hekimliği, diş hekimliğinin bir branşından çok daha fazlasıdır; "
+"yaşamları dönüştürme gücüne sahip bir sanat biçimidir. Diş kusurlarını bir "
+"parlaklık senfonisine dönüştürebilen, sadece görünümümüzü değil aynı zamanda "
+"öz saygımızı da artıran sihirli bir değnektir."
+
+#: .\website\templates\blog-single.html:31 .\website\views.py:395
+msgid ""
+"When we delve into the realm of cosmetic dentistry, we encounter a "
+"fascinating world where science meets aesthetics. It's a world where the "
+"skills of dental professionals are akin to those of artists, sculpting and "
+"crafting smiles that radiate beauty and confidence."
+msgstr ""
+"Estetik diş hekimliği alanına girdiğimizde bilimin estetikle buluştuğu "
+"büyüleyici bir dünyayla karşılaşıyoruz. Bu, diş hekimliği profesyonellerinin "
+"becerilerinin sanatçıların becerilerine benzediği, güzellik ve özgüven saçan "
+"gülümsemeler yarattığı ve şekillendirdiği bir dünya."
+
+#: .\website\templates\blog-single.html:32
+#: .\website\templates\blog-single.html:206 .\website\templates\blog.html:56
+#: .\website\templates\blog.html:188 .\website\views.py:378
+msgid "The Power of Prevention: How Daily Habits Impact Your Dental Health"
+msgstr "Önlemenin Gücü: Günlük Alışkanlıklar Diş Sağlığınızı Nasıl Etkiler?"
+
+#: .\website\templates\blog-single.html:33 .\website\views.py:396
+msgid ""
+"But what exactly is cosmetic dentistry? It's a field that encompasses a wide "
+"array of treatments and procedures designed to enhance the aesthetics of our "
+"teeth and smile. From teeth whitening and veneers to dental implants and "
+"orthodontics, the possibilities are endless."
+msgstr ""
+"Peki estetik diş hekimliği tam olarak nedir? Dişlerimizin ve gülüşümüzün "
+"estetiğini geliştirmek için tasarlanmış çok çeşitli tedavi ve prosedürleri "
+"kapsayan bir alandır. Diş beyazlatma ve kaplamalardan diş implantlarına ve "
+"ortodontiye kadar olanaklar sonsuzdur."
+
+#: .\website\templates\blog-single.html:37 .\website\views.py:397
+msgid ""
+"One of the most enchanting aspects of cosmetic dentistry is its ability to "
+"cater to the unique needs and desires of each patient. Your dream smile is "
+"not a one-size-fits-all concept; it's a personalized masterpiece that takes "
+"into account your facial structure, skin tone, and individual preferences."
+msgstr ""
+"Estetik diş hekimliğinin en büyüleyici yönlerinden biri, her hastanın "
+"benzersiz ihtiyaç ve isteklerini karşılayabilme yeteneğidir. Hayalinizdeki "
+"gülümseme herkese uyan tek bir kavram değildir; yüz yapınızı, cilt tonunuzu "
+"ve bireysel tercihlerinizi dikkate alan kişiselleştirilmiş bir şaheserdir."
+
+#: .\website\templates\blog-single.html:38 .\website\views.py:398
+msgid ""
+"Cosmetic dentistry is not merely about aesthetics; it's about function and "
+"health as well. Procedures like dental implants not only restore missing "
+"teeth but also improve oral health and overall well-being. A beautiful smile "
+"should not just look good; it should feel good and function perfectly."
+msgstr ""
+"Estetik diş hekimliği sadece estetikle ilgili değildir; aynı zamanda işlev "
+"ve sağlıkla da ilgilidir. Diş implantları gibi prosedürler yalnızca eksik "
+"dişleri onarmakla kalmaz, aynı zamanda ağız sağlığını ve genel refahı da "
+"iyileştirir. Güzel bir gülümseme sadece güzel görünmemeli; kendini iyi "
+"hissetmeli ve mükemmel şekilde çalışmalıdır."
+
+#: .\website\templates\blog-single.html:39 .\website\views.py:399
+msgid ""
+"Furthermore, the impact of cosmetic dentistry goes beyond the surface. A "
+"transformed smile has the power to boost confidence, enhance social "
+"interactions, and even positively affect professional opportunities. It's a "
+"testament to the profound connection between our oral and emotional well-"
+"being."
+msgstr ""
+"Üstelik estetik diş hekimliğinin etkisi yüzeyin ötesine geçiyor. "
+"Dönüştürülmüş bir gülümseme, güveni artırma, sosyal etkileşimleri geliştirme "
+"ve hatta mesleki fırsatları olumlu yönde etkileme gücüne sahiptir. Bu, sözlü "
+"ve duygusal sağlığımız arasındaki derin bağlantının bir kanıtıdır."
+
+#: .\website\templates\blog-single.html:40 .\website\views.py:400
+msgid ""
+"In conclusion, unlocking the secrets to a beautiful smile through cosmetic "
+"dentistry is not just about enhancing appearances; it's about embracing a "
+"new level of self-confidence and well-being. It's about understanding that a "
+"radiant smile is within reach, and it's achievable through the expertise and "
+"artistry of cosmetic dentistry."
+msgstr ""
+"Sonuç olarak güzel bir gülümsemenin sırlarını estetik diş hekimliği ile "
+"ortaya çıkarmak sadece görünümü güzelleştirmekle ilgili değildir; bu, yeni "
+"bir özgüven ve refah düzeyini benimsemekle ilgilidir. Bu, ışıltılı bir "
+"gülümsemenin elinizin altında olduğunu ve buna estetik diş hekimliğinin "
+"uzmanlığı ve sanatı sayesinde ulaşılabileceğini anlamakla ilgilidir."
+
+#: .\website\templates\blog-single.html:41 .\website\views.py:401
+msgid ""
+"So, I invite each of you to explore this captivating world, to consider the "
+"possibilities, and to envision the smile of your dreams. It's not just a "
+"journey to a beautiful smile; it's a journey to a more confident, radiant, "
+"and empowered you."
+msgstr ""
+"Bu yüzden her birinizi bu büyüleyici dünyayı keşfetmeye, olasılıkları "
+"düşünmeye ve hayallerinizdeki gülümsemeyi hayal etmeye davet ediyorum. Bu "
+"sadece güzel bir gülümsemeye giden bir yolculuk değil; bu daha kendinden "
+"emin, ışıltılı ve güçlü bir size doğru bir yolculuktur."
+
+#: .\website\templates\blog-single.html:42 .\website\views.py:402
+msgid ""
+"Thank you for joining me on this journey of discovery, and I hope that "
+"cosmetic dentistry continues to inspire and empower you to unlock the "
+"secrets to a beautiful smile."
+msgstr ""
+"Bu keşif yolculuğumda bana katıldığınız için teşekkür ederim ve umarım "
+"estetik diş hekimliği, güzel bir gülümsemenin sırlarını açığa çıkarmanız "
+"için size ilham vermeye ve güç vermeye devam eder."
+
+#: .\website\templates\blog-single.html:217 .\website\templates\blog.html:74
+#: .\website\templates\blog.html:199 .\website\views.py:380
+msgid "Behind the Scenes: What Really Happens During a Dental Checkup"
+msgstr "Kamera Arkası: Diş Muayenesi Sırasında Gerçekte Ne Oluyor"
+
+#: .\website\templates\blog.html:39 .\website\views.py:377
+msgid ""
+"Today, let's embark on a journey together, a journey to unlock the secrets "
+"to a beautiful smile through the captivating world of cosmetic dentistry. In "
+"a world where confidence and self-assurance often begin with a smile, "
+"understanding the art and science behind a stunning smile is not just "
+"enlightening; it's empowering"
+msgstr ""
+"Bugün birlikte bir yolculuğa çıkalım; estetik diş hekimliğinin büyüleyici "
+"dünyasında güzel bir gülümsemenin sırlarını açığa çıkaracak bir yolculuğa. "
+"Güvenin ve özgüvenin çoğu zaman bir gülümsemeyle başladığı bir dünyada, "
+"çarpıcı bir gülümsemenin ardındaki sanatı ve bilimi anlamak sadece "
+"aydınlatıcı değil; güç veriyor."
+
+#: .\website\templates\blog.html:40 .\website\templates\blog.html:58
+#: .\website\templates\blog.html:76 .\website\templates\blog.html:94
+#: .\website\templates\blog.html:112 .\website\templates\blog.html:130
+#: .\website\views.py:388
+msgid "Read more"
+msgstr "Devamını oku"
+
+#: .\website\templates\blog.html:57 .\website\views.py:379
+msgid ""
+"Preventing dental issues starts with the basics: our daily oral hygiene "
+"habits. Something as simple as brushing and flossing can be the frontline "
+"defense against tooth decay and gum disease. These daily rituals are more "
+"than just tasks; they're acts of self-care that set the foundation for a "
+"lifetime of strong, healthy teeth and gums."
+msgstr ""
+"Diş sorunlarının önlenmesi temel bilgilerle başlar: günlük ağız hijyeni "
+"alışkanlıklarımız. Fırçalamak ve diş ipi kullanmak kadar basit bir şey, diş "
+"çürümesine ve diş eti hastalığına karşı ön saf savunması olabilir. Bu günlük "
+"ritüeller görevlerden çok daha fazlasıdır; bunlar, ömür boyu güçlü, sağlıklı "
+"diş ve diş etlerine sahip olmanın temelini oluşturan kişisel bakım "
+"eylemleridir"
+
+#: .\website\templates\blog.html:75 .\website\views.py:381
+msgid ""
+"A dental checkup is not just a brief appointment; it's a comprehensive "
+"assessment of your oral health, a thorough examination that goes beyond what "
+"meets the eye. When you step into the dental chair, you're not just sitting "
+"down for a quick peek at your teeth; you're taking a proactive step towards "
+"maintaining your oral well-being"
+msgstr ""
+"Diş muayenesi sadece kısa bir randevu değildir; ağız sağlığınızın kapsamlı "
+"bir değerlendirmesidir, gözle görülenin ötesine geçen kapsamlı bir "
+"muayenedir. Dişçi koltuğuna adım attığınızda, sadece dişlerinize hızlıca göz "
+"atmak için oturmuyorsunuz; ağız sağlığınızı korumaya yönelik proaktif bir "
+"adım atıyorsunuz"
+
+#: .\website\templates\blog.html:92 .\website\views.py:382
+msgid "Oral Health at Every Age: A Guide to Pediatric to Geriatric Dentistry"
+msgstr ""
+"Her Yaşta Ağız Sağlığı: Pediatrikten Geriatrik Diş Hekimliğine Bir Kılavuz"
+
+#: .\website\templates\blog.html:93 .\website\views.py:383
+msgid ""
+"Let's begin with the youngest members of our community: our children. "
+"Pediatric dentistry is not just about baby teeth; it's about setting the "
+"foundation for a lifetime of healthy smiles. Early dental visits, education "
+"about proper oral hygiene, and preventive measures like sealants are crucial "
+"in ensuring that our children grow up with strong, cavity-free teeth"
+msgstr ""
+"Topluluğumuzun en genç üyeleriyle başlayalım: çocuklarımız. Çocuk diş "
+"hekimliği sadece süt dişleriyle ilgili değildir; ömür boyu sağlıklı "
+"gülümsemelerin temelini oluşturmakla ilgilidir. Çocuklarımızın güçlü, "
+"çürüksüz dişlerle büyümeleri için erken diş hekimi ziyaretleri, ağız hijyeni "
+"konusunda eğitim ve dolgu macunu gibi önleyici tedbirler çok önemlidir"
+
+#: .\website\templates\blog.html:110 .\website\views.py:384
+msgid "The Connection Between Oral and Overall Health: What You Need to Know"
+msgstr "Ağız ve Genel Sağlık Arasındaki Bağlantı: Bilmeniz Gerekenler"
+
+#: .\website\templates\blog.html:111 .\website\views.py:385
+msgid ""
+"The connection between oral health and overall health is a powerful one, "
+"often underestimated and overlooked. Yet, research and medical studies "
+"continually reveal the intricate relationship between the two. Our mouths "
+"are not isolated entities but rather gateways to our bodies, and what "
+"happens in our mouths can profoundly impact our overall health"
+msgstr ""
+"Ağız sağlığı ile genel sağlık arasındaki bağlantı genellikle hafife alınan "
+"ve gözden kaçırılan güçlü bir bağlantıdır. Ancak araştırmalar ve tıbbi "
+"çalışmalar, ikisi arasındaki karmaşık ilişkiyi sürekli olarak ortaya "
+"koyuyor. Ağızlarımız izole varlıklar değil, bedenlerimize açılan kapılardır "
+"ve ağzımızda olup bitenler genel sağlığımızı derinden etkileyebilir"
+
+#: .\website\templates\blog.html:128 .\website\views.py:386
+msgid "From Braces to Invisalign: A Comprehensive Guide to Orthodontic Options"
+msgstr ""
+"Diş Teli'nden Invisalign'a: Ortodonti Seçenekleri İçin Kapsamlı Bir Kılavuz"
+
+#: .\website\templates\blog.html:129 .\website\views.py:387
+msgid ""
+"Orthodontics is a field that has evolved significantly over the years, "
+"offering a wide spectrum of treatments to address various dental "
+"misalignments. Gone are the days when metal braces were the only option. "
+"Today, the choice is not just about straightening teeth but also about doing "
+"so comfortably, discreetly, and efficiently"
+msgstr ""
+"Ortodonti, yıllar içinde önemli ölçüde gelişen ve çeşitli diş bozukluklarına "
+"yönelik geniş bir tedavi yelpazesi sunan bir alandır. Tek seçeneğin metal "
+"diş telleri olduğu günler geride kaldı. Bugün, seçim sadece dişleri "
+"düzeltmek değil, aynı zamanda bunu rahat, gizli ve verimli bir şekilde "
+"yapmaktır"
+
+#: .\website\templates\blog.html:224 .\website\views.py:389
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: .\website\templates\blog.html:225 .\website\views.py:390
+msgid ""
+"A dental care blog is more than just a collection of articles; it's a "
+"trusted resource that empowers individuals to take charge of their oral "
+"health. It serves as a beacon of knowledge, shedding light on the importance "
+"of dental hygiene, the latest advancements in dentistry, and practical tips "
+"for maintaining a radiant smile"
+msgstr ""
+"Bir diş bakımı blogu, bir makale koleksiyonundan daha fazlasıdır; bireylere "
+"ağız sağlıklarının sorumluluğunu alma yetkisi veren güvenilir bir kaynaktır. "
+"Diş hijyeninin önemine, diş hekimliğindeki en son gelişmelere ve ışıltılı "
+"bir gülümsemeyi sürdürmek için pratik ipuçlarına ışık tutan bir bilgi ışığı "
+"görevi görüyor"
+
+#: .\website\templates\contact.html:14 .\website\views.py:366
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: .\website\templates\contact.html:52 .\website\views.py:367
+msgid "Contact Information"
+msgstr "Iletişim Bilgileri"
+
+#: .\website\templates\contact.html:56 .\website\views.py:368
+msgid "Address"
+msgstr "Adres"
+
+#: .\website\templates\contact.html:59 .\website\templates\home.html:110
+#: .\website\templates\register.html:91 .\website\views.py:246
+msgid "Phone"
+msgstr "Telefon"
+
+#: .\website\templates\contact.html:73 .\website\views.py:369
+msgid "Your Name"
+msgstr "Adınız"
+
+#: .\website\templates\contact.html:76 .\website\views.py:370
+msgid "Your Email"
+msgstr "E-posta adresiniz"
+
+#: .\website\templates\contact.html:79 .\website\views.py:371
+msgid "Subject"
+msgstr "Konu"
+
+#: .\website\templates\contact.html:82 .\website\views.py:372
+msgid "Message"
+msgstr "İleti"
+
+#: .\website\templates\contact.html:85 .\website\views.py:373
+msgid "Send Message"
+msgstr "Mesaj gönder"
+
+#: .\website\templates\doctors.html:26 .\website\templates\home.html:241
+#: .\website\views.py:283
+msgid "Meet Our Experience Dentist"
+msgstr "Deneyimli diş hekimimizle tanışın"
+
+#: .\website\templates\doctors.html:27 .\website\templates\home.html:242
+#: .\website\views.py:284
+msgid ""
+"Meet our experienced dentist, a dedicated professional committed to "
+"providing top-notch and ensuring your oral health is in the best hands."
+msgstr ""
+"Birinci sınıf kaliteyi sağlamaya ve ağız sağlığınızın en iyi ellerde "
+"olmasını sağlamaya kendini adamış, kendini adamış bir profesyonel olan "
+"deneyimli diş hekimimizle tanışın."
+
+#: .\website\templates\doctors.html:36 .\website\templates\doctors.html:54
+#: .\website\templates\doctors.html:72 .\website\templates\doctors.html:90
+#: .\website\templates\doctors.html:108 .\website\templates\doctors.html:126
+#: .\website\templates\doctors.html:144 .\website\templates\doctors.html:162
+#: .\website\templates\home.html:251 .\website\templates\home.html:269
+#: .\website\templates\home.html:287 .\website\templates\home.html:305
+#: .\website\views.py:285
+msgid "Dentist"
+msgstr "Doktor"
+
+#: .\website\templates\doctors.html:38 .\website\templates\doctors.html:56
+#: .\website\templates\doctors.html:74 .\website\templates\doctors.html:92
+#: .\website\templates\doctors.html:110 .\website\templates\doctors.html:128
+#: .\website\templates\doctors.html:146 .\website\templates\doctors.html:164
+#: .\website\templates\home.html:253 .\website\templates\home.html:271
+#: .\website\templates\home.html:289 .\website\templates\home.html:307
+#: .\website\views.py:286
+msgid ""
+"A dentist is a healthcare professional dedicated to preserving and enhancing "
+"oral health, ensuring patients' smiles radiate confidence and well-being."
+msgstr ""
+"Diş hekimi, ağız sağlığını korumaya ve geliştirmeye, hastaların "
+"gülümsemelerinin güven ve iyilik yaymasını sağlamaya kendini adamış bir "
+"sağlık uzmanıdır."
+
+#: .\website\templates\home.html:43 .\website\templates\register.html:155
+#: .\website\views.py:215
+msgid "Emergency Cases"
+msgstr "Acil durumlar"
+
+#: .\website\templates\home.html:44 .\website\templates\register.html:156
+#: .\website\views.py:216
+msgid ""
+"Please do not hesitate to contact me for any additional information or "
+"assistance required."
+msgstr ""
+"Gereken herhangi bir ek bilgi veya yardım için lütfen benimle iletişime "
+"geçmekten çekinmeyin."
+
+#: .\website\templates\home.html:48 .\website\templates\register.html:160
+#: .\website\views.py:218
+msgid "Opening Hours"
+msgstr "Açılış saatleri"
+
+#: .\website\templates\home.html:50 .\website\templates\register.html:162
+#: .\website\views.py:219
+msgid "Monday - Friday"
+msgstr "Pazartes - Cuma"
+
+#: .\website\templates\home.html:54 .\website\templates\register.html:166
+#: .\website\views.py:220
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: .\website\templates\home.html:58 .\website\templates\register.html:170
+#: .\website\views.py:221
+msgid "Sunday"
+msgstr "Pazar"
+
+#: .\website\templates\home.html:72 .\website\views.py:224
+msgid "Department"
+msgstr "Departman"
+
+#: .\website\templates\home.html:73 .\website\templates\home.html:145
+#: .\website\templates\services.html:41 .\website\views.py:225
+msgid "Teeth Whitening"
+msgstr "Diş beyazlatma"
+
+#: .\website\templates\home.html:74 .\website\templates\home.html:157
+#: .\website\templates\services.html:53 .\website\views.py:226
+msgid "Teeth Cleaning"
+msgstr "Diş temizliği"
+
+#: .\website\templates\home.html:75 .\website\views.py:227
+msgid "Quality Brackets"
+msgstr "Kaliteli Braketler"
+
+#: .\website\templates\home.html:76 .\website\templates\services.html:148
+#: .\website\views.py:228 .\website\views.py:232
+msgid "Modern Anesthetic"
+msgstr "Modern Anestezi"
+
+#: .\website\templates\home.html:84 .\website\views.py:243
+msgid "Name"
+msgstr "Isim"
+
+#: .\website\templates\home.html:98 .\website\views.py:244
+msgid "Date"
+msgstr "Tarih"
+
+#: .\website\templates\home.html:104 .\website\views.py:245
+msgid "Time"
+msgstr "Zaman"
+
+#: .\website\templates\home.html:128 .\website\templates\services.html:16
+#: .\website\templates\services.html:27 .\website\views.py:248
+msgid "Our Service Keeps you Smile"
+msgstr "Hizmetimiz Sizi Gülümsetiyor"
+
+#: .\website\templates\home.html:129 .\website\templates\services.html:28
+#: .\website\views.py:254
+msgid ""
+"We believe that a healthy smile is a confident smile; We're here to help you "
+"earn and keep that trust. Our vision: without compromising scientific, "
+"ethical, conscientious and humanitarian principles; modern treatments; To "
+"present it to you with our honest, reliable and experienced team."
+msgstr ""
+"Sağlıklı bir gülümsemenin kendine güvenen bir gülümseme olduğuna inanıyoruz; "
+"bu güveni kazanmanıza ve korumanıza yardımcı olmak için buradayız. "
+"Vizyonumuz : bilimsel,etik,vicdani ve insani ilkelerden ödün vermeden; "
+"modern tedavileri ; dürüst, güvenilir ve tecrübeli ekibimizle sizlere "
+"sunmaktır."
+
+#: .\website\templates\home.html:133 .\website\templates\services.html:29
+#: .\website\views.py:255
+msgid ""
+"At Blue Tulip, we pride ourselves on providing world-class services that "
+"will not only restore your oral health, but will also get you back to your "
+"radiant smile."
+msgstr ""
+"Blue Tulip'te ağız sağlığınızı geri kazandırmanın yanısıra, sizi ışıltılı "
+"gülümsemenize kavuşturacak birinci sınıf hizmetler sunmaktan gurur "
+"duyuyoruz. "
+
+#: .\website\templates\home.html:134 .\website\templates\services.html:30
+#: .\website\views.py:256
+msgid ""
+"With our friendly and experienced team, we restore your oral health in the "
+"comfort of your home. It protects your dental health with regular check-ups "
+"and treatments; We offer you a bright smile."
+msgstr ""
+"Güler yüzlü ve tecrübeli ekibimizle sizlere ev konforunda ağız sağlığınızı "
+"geri kazandırıyoruz. Düzenli kontrol ve tedavilerle  diş sağlığınızı "
+"koruyor; sizlere parlak bir gülümseme sunuyoruz."
+
+#: .\website\templates\home.html:146 .\website\views.py:259
+msgid ""
+"Teeth whitening is a cosmetic procedure to brighten discolored or stained "
+"teeth, enhancing your smile's aesthetics."
+msgstr ""
+"Diş beyazlatma, rengi solmuş veya lekelenmiş dişleri beyazlatarak "
+"gülüşünüzün estetiğini artıran kozmetik bir işlemdir."
+
+#: .\website\templates\home.html:158 .\website\templates\services.html:42
+#: .\website\templates\services.html:54 .\website\views.py:258
+msgid ""
+"A routine dental cleaning involves the removal of plaque and tartar buildup "
+"from your teeth. It helps prevent gum disease and keeps your smile fresh and "
+"healthy."
+msgstr ""
+"Rutin diş temizliği, dişlerinizdeki plak ve tartar birikiminin giderilmesini "
+"içerir. Diş eti hastalıklarını önlemeye yardımcı olur ve gülüşünüzü taze ve "
+"sağlıklı tutar."
+
+#: .\website\templates\home.html:170 .\website\templates\services.html:65
+#: .\website\views.py:235
+msgid "Extractions"
+msgstr "Diş Çekimleri"
+
+#: .\website\templates\home.html:171 .\website\templates\services.html:66
+#: .\website\views.py:261
+msgid ""
+"Dental extractions involve the removal of damaged or non-restorable teeth, "
+"often due to severe decay, infection, or crowding."
+msgstr ""
+"Diş çekimleri, genellikle ciddi çürüme, enfeksiyon veya çapraşıklık "
+"nedeniyle hasar görmüş veya onarılamayan dişlerin çıkarılmasını içerir."
+
+#: .\website\templates\home.html:182 .\website\templates\services.html:76
+#: .\website\views.py:230
+msgid "Fillings"
+msgstr "Dolgular"
+
+#: .\website\templates\home.html:183 .\website\templates\services.html:77
+#: .\website\views.py:260
+msgid ""
+"Dental fillings are used to repair cavities and restore damaged teeth. They "
+"can be made from materials like composite resin, amalgam, or porcelain."
+msgstr ""
+"Diş dolguları, çürükleri onarmak ve hasar görmüş dişleri onarmak için "
+"kullanılır. Kompozit reçine, amalgam veya porselen gibi malzemelerden "
+"yapılabilirler."
+
+#: .\website\templates\home.html:321 .\website\views.py:293
+msgid ""
+"Today, I have the distinct pleasure of introducing you to the heart of our "
+"dental practice - our experienced dentist. Our dentist isn't just a "
+"professional; they are a dedicated healthcare provider with a wealth of "
+"expertise and a genuine commitment to your oral health and overall well-"
+"being."
+msgstr ""
+"Bugün sizi diş hekimliği uygulamamızın kalbi olan deneyimli diş hekimimizle "
+"tanıştırmaktan büyük bir mutluluk duyuyorum. Diş hekimimiz sadece bir "
+"profesyonel değil; onlar, zengin bir uzmanlığa ve ağız sağlığınıza ve genel "
+"refahınıza gerçek bir bağlılığa sahip, özel bir sağlık hizmeti "
+"sağlayıcısıdır."
+
+#: .\website\templates\home.html:458 .\website\views.py:303
+msgid "Subcribe to our Newsletter"
+msgstr "Bültenimize abone olun"
+
+#: .\website\templates\home.html:459 .\website\views.py:304
+msgid ""
+"Subscribe to our newsletter to stay informed and receive regular updates, "
+"exclusive content, and valuable insights delivered directly to your inbox."
+msgstr ""
+"Haberdar olmak ve düzenli güncellemeler, özel içerik ve doğrudan gelen "
+"kutunuza gönderilen değerli bilgiler almak için bültenimize abone olun."
+
+#: .\website\templates\home.html:464 .\website\views.py:305
+msgid "Enter email address"
+msgstr "Email adresini gir"
+
+#: .\website\templates\home.html:465 .\website\views.py:306
+msgid "Subscribe"
+msgstr "Abone olun"
+
+#: .\website\templates\home.html:525 .\website\views.py:315
+msgid "UI Designer"
+msgstr "Kullanıcı Arayüzü Tasarımcısı"
+
+#: .\website\templates\home.html:603 .\website\views.py:321
+msgid ""
+"I encourage you to explore the world of dental blogs. Dive into the "
+"articles, absorb the knowledge, and empower yourself with the information "
+"needed to maintain a healthy, radiant smile. Your oral health journey begins "
+"with the click of a button, and the possibilities are endless."
+msgstr ""
+"Diş blogları dünyasını keşfetmenizi tavsiye ederim. Makaleleri derinlemesine "
+"inceleyin, bilgiyi özümseyin ve sağlıklı, ışıltılı bir gülümsemeyi sürdürmek "
+"için gereken bilgilerle kendinizi güçlendirin. Ağız sağlığı yolculuğunuz bir "
+"düğmeye tıklamakla başlar ve olasılıklar sonsuzdur."
+
+#: .\website\templates\home.html:618 .\website\views.py:322
+msgid ""
+"Explore the connection between your diet and your dental health. Discover "
+"which foods are smile-friendly and which ones to consume in moderation."
+msgstr ""
+"Diyetiniz ile diş sağlığınız arasındaki bağlantıyı keşfedin. Hangi "
+"yiyeceklerin gülümseme dostu olduğunu ve hangilerinin ölçülü tüketilmesi "
+"gerektiğini keşfedin."
+
+#: .\website\templates\home.html:634 .\website\views.py:323
+msgid ""
+"Parents, learn how to establish good oral hygiene habits early, find the "
+"right toothbrush for your child, and make dental visits a positive "
+"experience."
+msgstr ""
+"Ebeveynler, iyi ağız hijyeni alışkanlıklarını erkenden nasıl edineceğinizi, "
+"çocuğunuz için doğru diş fırçasını nasıl bulacağınızı ve diş hekimi "
+"ziyaretlerini nasıl olumlu bir deneyime dönüştüreceğinizi öğrenin."
+
+#: .\website\templates\home.html:650 .\website\views.py:324
+msgid ""
+"Explore practical and effective tips for maintaining a dazzling smile, from "
+"proper brushing and flossing techniques to the benefits of mouthwash."
+msgstr ""
+"Doğru fırçalama ve diş ipi kullanma tekniklerinden gargaranın faydalarına "
+"kadar göz kamaştırıcı bir gülümsemeyi sürdürmek için pratik ve etkili "
+"ipuçlarını keşfedin."
+
+#: .\website\templates\home.html:664 .\website\views.py:327
+msgid "Blue Tulip Procedure"
+msgstr "Blue Tulip Prosedürü"
+
+#: .\website\templates\home.html:664 .\website\views.py:328
+msgid "High Quality Services"
+msgstr "Yüksek Kaliteli Hizmetler"
+
+#: .\website\templates\home.html:667 .\website\views.py:329
+msgid ""
+"I'm delighted to introduce you to the Blue Tulip Procedure and the "
+"exceptional high-quality services it represents. Blue Tulip is not just a "
+"dental treatment; it's a testament to our unwavering commitment to your oral "
+"health and well-being."
+msgstr ""
+"Sizi Blue Tulip İşlemi ve onun temsil ettiği olağanüstü yüksek kaliteli "
+"hizmetlerle tanıştırmaktan mutluluk duyuyorum. Mavi Lale sadece diş tedavisi "
+"değildir; bu, ağız sağlığınıza ve refahınıza olan sarsılmaz bağlılığımızın "
+"bir kanıtıdır."
+
+#: .\website\templates\home.html:669 .\website\views.py:330
+msgid "innovation"
+msgstr "yenilik"
+
+#: .\website\templates\home.html:670 .\website\views.py:331
+msgid "dedication"
+msgstr "özveri"
+
+#: .\website\templates\home.html:671 .\website\views.py:332
+msgid "cutting-edge technology"
+msgstr "son teknoloji"
+
+#: .\website\templates\home.html:677 .\website\views.py:334
+msgid "Get a Free Quote"
+msgstr "Ücretsiz fiyat teklifi almak"
+
+#: .\website\templates\home.html:708 .\website\views.py:335
+msgid "Get Quote"
+msgstr "Teklif Al"
+
+#: .\website\templates\register.html:56 .\website\views.py:405
+msgid "Register at Blue Tulip"
+msgstr "Blue Tulip'e kaydolun"
+
+#: .\website\templates\register.html:58 .\website\views.py:406
+msgid ""
+"You are welcome to register with us. Please fill out the information below "
+"and we will contact you within two working days.Do you want to register more "
+"than one person such as your partner or children? After submitting the "
+"completed registration form, this page will automatically refresh to allow "
+"you to complete another registration form if necessary.Would you please "
+"bring your health care card on your first visit? Thanks in advance!"
+msgstr ""
+"Bize kayıt olabilirsiniz. Lütfen aşağıdaki bilgileri doldurun, iki iş günü "
+"içinde sizinle iletişime geçeceğiz. Eşiniz veya çocuklarınız gibi birden "
+"fazla kişiyi kayıt ettirmek mi istiyorsunuz? Doldurduğunuz kayıt formunu "
+"gönderdikten sonra bu sayfa, gerekirse başka bir kayıt formu doldurmanıza "
+"imkan verecek şekilde otomatik olarak yenilenecektir. Lütfen ilk "
+"ziyaretinizde sağlık kartınızı getirir misiniz? Şimdiden teşekkürler!"
+
+#: .\website\templates\register.html:74 .\website\views.py:407
+msgid "First Name"
+msgstr "Adınız"
+
+#: .\website\templates\register.html:78 .\website\views.py:408
+msgid "Last Name"
+msgstr "Soyadiniz"
+
+#: .\website\templates\register.html:82 .\website\views.py:409
+msgid "Gender"
+msgstr "Cinsiyet"
+
+#: .\website\templates\register.html:95 .\website\views.py:419
+msgid "Date of birth"
+msgstr "Doğum tarihi"
+
+#: .\website\templates\register.html:99 .\website\views.py:410
+msgid "House Number"
+msgstr "Ev Numarası"
+
+#: .\website\templates\register.html:103 .\website\views.py:411
+msgid "City"
+msgstr "Şehir"
+
+#: .\website\templates\register.html:107 .\website\views.py:412
+msgid "State"
+msgstr "Eyalet"
+
+#: .\website\templates\register.html:111 .\website\views.py:413
+msgid "Zipcode"
+msgstr "Posta kodu"
+
+#: .\website\templates\register.html:115 .\website\views.py:414
+msgid "Street"
+msgstr "Sokak"
+
+#: .\website\templates\register.html:119 .\website\views.py:415
+msgid "How Do you hear about Us?"
+msgstr "Bizden Nasıl Haberdarsınız?"
+
+#: .\website\templates\register.html:123 .\website\views.py:416
+msgid "Question"
+msgstr "Soru"
+
+#: .\website\templates\register.html:127 .\website\views.py:417
+msgid "Are you member?"
+msgstr "Üye misiniz?"
+
+#: .\website\templates\register.html:136 .\website\views.py:418
+msgid "Register"
+msgstr "Kayıt ol"
+
+#: .\website\templates\services.html:88 .\website\views.py:229
+msgid "Dental Checkup"
+msgstr "Diş kontrolü"
+
+#: .\website\templates\services.html:89 .\website\views.py:266
+msgid ""
+"Regular dental checkups are essential for maintaining oral health. Dentists "
+"examine your teeth, gums, and mouth for signs of issues, allowing for early "
+"intervention."
+msgstr ""
+"Ağız sağlığının korunması için düzenli diş muayenesi şarttır. Diş hekimleri "
+"dişlerinizi, diş etlerinizi ve ağzınızı sorun belirtileri açısından "
+"inceleyerek erken müdahaleye olanak tanır."
+
+#: .\website\templates\services.html:100 .\website\views.py:231
+msgid "Dental Bridges"
+msgstr "Diş Köprüleri"
+
+#: .\website\templates\services.html:101 .\website\templates\services.html:149
+#: .\website\views.py:267
+msgid ""
+"Bridges are used to replace missing teeth by anchoring artificial teeth to "
+"adjacent natural teeth, improving both function and appearance."
+msgstr ""
+"Köprüler, yapay dişlerin komşu doğal dişlere sabitlenmesi yoluyla eksik "
+"dişlerin yerine konulması için kullanılır, hem fonksiyon hem de görünüm "
+"iyileştirilir."
+
+#: .\website\templates\services.html:112 .\website\views.py:233
+msgid "Dental Implants"
+msgstr "Diş implantları"
+
+#: .\website\templates\services.html:113 .\website\views.py:264
+msgid ""
+"Dental implants are titanium posts surgically placed in the jawbone to "
+"support artificial teeth. They provide a durable, long-term solution for "
+"missing teeth."
+msgstr ""
+"Diş implantları, yapay dişleri desteklemek için çene kemiğine cerrahi olarak "
+"yerleştirilen titanyum direklerdir. Eksik dişlere dayanıklı, uzun vadeli bir "
+"çözüm sunarlar."
+
+#: .\website\templates\services.html:124 .\website\views.py:236
+msgid "Pediatric Dentistry"
+msgstr "Çocuk Diş Hekimliği"
+
+#: .\website\templates\services.html:125 .\website\views.py:265
+msgid ""
+"Pediatric dentists specialize in children's dental care, offering services "
+"tailored to young patients' unique needs."
+msgstr ""
+"Pediatrik diş hekimleri çocukların diş bakımı konusunda uzmanlaşmıştır ve "
+"genç hastaların benzersiz ihtiyaçlarına uygun hizmetler sunmaktadır."
+
+#: .\website\templates\services.html:137 .\website\views.py:234
+msgid "Root Canal Treatment"
+msgstr "Kök kanal tedavisi"
+
+#: .\website\templates\services.html:138 .\website\views.py:263
+msgid ""
+"Root canal therapy involves removing infected or damaged pulp from a tooth, "
+"preserving the tooth and relieving pain caused by infection."
+msgstr ""
+"Kök kanal tedavisi, dişten enfekte veya hasar görmüş pulpanın çıkarılmasını, "
+"dişi korumayı ve enfeksiyonun neden olduğu ağrıyı hafifletmeyi içerir."
+
+#: .\website\templates\services.html:160 .\website\views.py:238
+#, fuzzy
+#| msgid "Dental Bridges"
+msgid "Dental Crowns"
+msgstr "Diş Köprüleri"
+
+#: .\website\templates\services.html:161 .\website\views.py:268
+msgid ""
+"Crowns are tooth-shaped caps that are placed over damaged or weakened teeth "
+"to restore their strength, shape, and appearance."
+msgstr ""
+"Kuronlar, hasar görmüş veya zayıflamış dişlerin üzerine, güçlerini, "
+"şekillerini ve görünümlerini yeniden kazandırmak için yerleştirilen diş "
+"şeklindeki kapaklardır."
+
+#: .\website\templates\services.html:172 .\website\views.py:237
+#, fuzzy
+#| msgid "Root Canal Treatment"
+msgid "Orthodontic Treatment"
+msgstr "Kök kanal tedavisi"
+
+#: .\website\templates\services.html:173 .\website\views.py:262
+msgid ""
+"Orthodontic procedures, including braces and aligners, are used to correct "
+"misaligned teeth and bite issues for improved oral health and aesthetics."
+msgstr ""
+"Diş telleri ve hizalayıcıları da içeren ortodontik prosedürler, daha iyi "
+"ağız sağlığı ve estetiği sağlamak amacıyla yanlış hizalanmış dişleri ve "
+"ısırık sorunlarını düzeltmek için kullanılır."
+
+#: .\website\views.py:205
+msgid "hello"
+msgstr "merhaba"
+
+#: .\website\views.py:269
+msgid ""
+"Quality brackets in the context of dentistry typically refer to orthodontic "
+"brackets used in braces. These brackets play a crucial role in orthodontic "
+"treatment as they are attached to the patient's teeth and serve as the "
+"anchor points for the archwires that guide the movement of teeth into their "
+"proper positions."
+msgstr ""
+"Diş hekimliği bağlamında kaliteli braketler tipik olarak diş tellerinde "
+"kullanılan ortodontik braketleri ifade eder. Bu braketler, hastanın "
+"dişlerine bağlandıkları ve dişlerin hareketlerini uygun konumlarına "
+"yönlendiren ark telleri için bağlantı noktaları görevi gördükleri için "
+"ortodontik tedavide çok önemli bir rol oynarlar."
+
+#: .\website\views.py:287
+msgid "Assistant"
+msgstr "Doktor Asistani"
+
+#: .\website\views.py:288
+msgid ""
+"A dentist assistant is a crucial part of the dental team, offering support "
+"and ensuring the smooth operation of the practice, while also assisting in "
+"patient care."
+msgstr ""
+"Bir diş hekimi asistanı, diş hekimliği ekibinin önemli bir parçasıdır; "
+"destek sunar ve muayenehanenin sorunsuz çalışmasını sağlarken aynı zamanda "
+"hasta bakımına da yardımcı olur."
+
+#: .\website\views.py:289
+#, fuzzy
+#| msgid "Reception Employer"
+msgid "Reception Employee"
+msgstr "Recepsiyonist"
+
+#: .\website\views.py:290
+msgid ""
+"A reception employee serves as the welcoming face of an organization, "
+"adeptly managing inquiries, appointments, and the flow of visitors to create "
+"a positive and efficient experience."
+msgstr ""
+"Bir resepsiyon çalışanı, olumlu ve verimli bir deneyim yaratmak için "
+"soruları, randevuları ve ziyaretçi akışını ustaca yöneterek bir "
+"organizasyonun davetkar yüzü olarak hizmet eder."
+
+#: .\website\views.py:291
+msgid "IT Expert"
+msgstr "IT Uzmanı"
+
+#: .\website\views.py:292
+msgid ""
+"An IT expert possesses the technical prowess to troubleshoot, optimize, and "
+"innovate in the digital realm, ensuring that technology empowers and enables "
+"seamless operations across various domains."
+msgstr ""
+"Bir IT uzmanı, dijital alanda sorunları giderme, optimize etme ve yenilik "
+"yapma konusunda teknik beceriye sahip olup, teknolojinin çeşitli alanlarda "
+"kesintisiz operasyonları güçlendirip mümkün kılmasını sağlar."
+
+#: .\website\views.py:325
+msgid ""
+"Discover why routine dental checkups are your best defense against oral "
+"health issues and how they can save you time, money, and discomfort in the "
+"long run."
+msgstr ""
+"Rutin diş kontrollerinin neden ağız sağlığı sorunlarına karşı en iyi "
+"savunmanız olduğunu ve uzun vadede zamandan, paradan ve rahatsızlıktan nasıl "
+"tasarruf edebileceğinizi keşfedin."
+
+#: .\website\views.py:363
+msgid ""
+"In conclusion, when we say, 'Help Our Customers Needs,' we mean that your "
+"needs are at the forefront of our practice. Your smile is our mission, and "
+"we are dedicated to assisting you in achieving and maintaining optimal oral "
+"health. We are not just your dental care providers; we are your partners in "
+"a journey toward a healthier, happier smile"
+msgstr ""
+"Üstelik 'Müşterilerimizin İhtiyaçlarına Yardımcı Olma' taahhüdümüz "
+"sandalyenin ötesine uzanıyor. Ağız sağlığınız hakkında bilinçli kararlar "
+"vermenizi sağlayacak bilgi ve araçlarla sizi güçlendirmek, rehberlik ve "
+"eğitim sağlamak için buradayız. İyi bilgilendirilmiş bir hastanın "
+"güçlendirilmiş bir hasta olduğuna inanıyoruz."
+
+#, fuzzy
+#~| msgid ""
+#~| "Today, let's embark on a journey together, a journey to unlock the "
+#~| "secrets to a beautiful smile through the captivating world of cosmetic "
+#~| "dentistry. In a world where confidence and self-assurance often begin "
+#~| "with a smile, understanding the art and science behind a stunning smile "
+#~| "is not just enlightening; it's empowering"
+#~ msgid ""
+#~ "Today, let's embark on a journey together, a journey to unlock the "
+#~ "secrets to a beautiful smile through the captivating world of cosmetic "
+#~ "dentistry. In a world where confidence and self-assurance often begin "
+#~ "with a smile, understanding the art and science behind a stunning smile "
+#~ "is not just enlightening; it's empowering."
+#~ msgstr ""
+#~ "Bugün birlikte bir yolculuğa çıkalım; estetik diş hekimliğinin büyüleyici "
+#~ "dünyasında güzel bir gülümsemenin sırlarını açığa çıkaracak bir "
+#~ "yolculuğa. Güvenin ve özgüvenin çoğu zaman bir gülümsemeyle başladığı bir "
+#~ "dünyada, çarpıcı bir gülümsemenin ardındaki sanatı ve bilimi anlamak "
+#~ "sadece aydınlatıcı değil; güç veriyor."
+
+#~ msgid ""
+#~ "A small river named Duden flows by their place and supplies it with the "
+#~ "necessary regelialia."
+#~ msgstr ""
+#~ "Düden adında küçük bir nehir onların yanından akıyor ve ona gerekli "
+#~ "regelia'yı sağlıyor."
+
+#~ msgid ""
+#~ "A reception employer plays a pivotal role in the dental office, welcoming "
+#~ "patients, managing appointments, and providing the first impression of "
+#~ "professionalism and warmth to those seeking dental care."
+#~ msgstr ""
+#~ "Bir resepsiyon işvereni diş muayenehanesinde hastaları karşılayarak, "
+#~ "randevuları yöneterek ve diş bakımı arayanlara profesyonellik ve sıcaklık "
+#~ "konusunda ilk izlenimi sağlayarak çok önemli bir rol oynar."
+
+#, fuzzy
+#~| msgid ""
+#~| "A small river named Duden flows by their place and supplies it with the "
+#~| "necessary regelialia."
+#~ msgid "A small river named Duden flows by their place and supplies"
+#~ msgstr ""
+#~ "Yerlerinin yanından Düden adında küçük bir nehir akıyor ve "
+#~ "yiyeceksağlıyorDüden adında küçük bir nehir onların yanından akıyor ve "
+#~ "ona gerekli regelia'yı sağlıyor."

@@ -1,0 +1,756 @@
+{% load static %}
+
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> {% block title %} White Tulip {% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/png" href="{% static 'website/images/oya-dentist-logo.png' %}"/>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'website/css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/animate.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'website/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'website/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'website/css/ionicons.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'website/css/bootstrap-datepicker.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/jquery.timepicker.css' %}">
+
+    
+    <link rel="stylesheet" href="{% static 'website/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/style2.css' %}">  
+    <link rel="stylesheet" href="{% static 'website/css/language.css' %}">  
+    <link rel="stylesheet" type="text/css"  href="{% static 'website/css/register-patient.css' %}">
+
+    <!-- <link rel="stylesheet/less" type="text/css" href="{% static 'website/scss/register.scss' %}"> -->
+	
+
+
+    <!-- <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+    rel="stylesheet"
+  /> -->
+
+  <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald&display=swap');
+
+        .logo-sub-heading-style{
+          width: 10px;
+          color: rgb(253, 249, 245);
+          text-transform: none;
+          margin-left: 25px;
+          
+        }
+
+        .footer-img-4{
+
+          background-image: url("{% static 'website/images/image_1.jpg' %}");
+        }
+
+        .footer-img-5{
+          background-image: url("{% static 'website/images/image_2.jpg' %}");
+        }
+
+        .bg-1{
+          background-image: url("{% static 'website/images/bg_1.jpg' %}");
+        }
+        .bg-2{
+          background-image: url("{% static 'website/images/bg_2.jpg' %}");
+        }
+        .about{
+          background-image: url("{% static 'website/images/about.jpg' %}");
+        }
+        .about-2{
+          background-image: url("{% static 'website/images/about-2.jpg' %}"); 
+          
+        }
+
+        /* iphone */
+          @media (min-width:0px) and (max-width:480px) {
+            #video-player{
+              width:500px;
+              height: 400px;
+              /* background-color: brown; */
+              margin-bottom: -70px;
+            }
+          }
+
+          @media (min-width:480px) and (max-width:780px) {
+            #video-player{
+              width:800px;
+              height: 600px;
+              /* background-color: brown; */
+              margin-bottom: -90px;
+            }
+          }
+
+          @media (min-width:780px) and (max-width:1080px) {
+            #video-player{
+              width:fit-content;
+              height: fit-content;
+              /* background-color: brown; */
+              
+            }
+          }
+                
+                
+                  
+        
+          @media (min-width: 1200px) {
+            #video-player{
+              width: 1000px;
+              height: fit-content;
+             
+            }
+          }
+
+            @media (min-width: 1900px) {
+            #video-player{
+              width: 1200px;
+              height: fit-content;
+              margin-top: 6px;
+              border: 2px solid #007bff;
+             
+            }
+      
+        }
+   
+         
+        .person_1{
+          background-image: url("{% static 'website/images/portofoliofoto.jpg' %}");
+        }
+        .person_2{
+          background-image: url("{% static 'website/images/person_2.jpg' %}");
+        }
+        .person_3{
+          background-image: url("{% static 'website/images/person_3.jpg' %}");
+        }
+        .person_4{
+          background-image: url("{% static 'website/images/person_4.jpg' %}");
+        }
+        .person_5 {
+          background-image: url("{% static 'website/images/person_5.jpg' %}");
+        }
+        .person_6{
+          background-image: url("{% static 'website/images/person_6.jpg' %}");
+        }
+        .person_7{
+          background-image: url("{% static 'website/images/person_7.jpg' %}");
+        }
+        .person_8{
+          background-image: url("{% static 'website/images/person_8.jpg' %}");
+        }
+        .gallery-1{
+          background-image: url("{% static 'website/images/gallery-1.jpg' %}");
+        }
+        .gallery-2{
+          background-image: url("{% static 'website/images/gallery-2.jpg' %}");
+        }
+        .gallery-3{
+          background-image: url("{% static 'website/images/gallery-3.jpg' %}");
+        }
+        .gallery-4{
+          background-image: url("{% static 'website/images/gallery-4.jpg' %}");
+        }
+        .image_1{
+          background-image: url("{% static 'website/images/image_1.jpg' %}");
+        }
+        .image_2{
+          background-image: url("{% static 'website/images/image_2.jpg' %}");
+        }
+        .image_3{
+          background-image: url("{% static 'website/images/image_3.jpg' %}");
+        }
+        .image_4{
+          background-image: url("{% static 'website/images/image_4.jpg' %}");
+        }
+        .image_5{
+          background-image: url("{% static 'website/images/image_5.jpg' %}");
+        }
+        .image_6{
+          background-image: url("{% static 'website/images/image_6.jpg' %}");
+        }
+
+      .ftco-intro .appointment-form .form-group input, .ftco-intro .appointment-form .form-group select option{
+      /* -webkit-appearance: none;
+      -moz-appearance: none; */
+      /* appearance: none; */
+      /* background: transparent !important; */
+      background-color: #86E5FF;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff !important;
+      font-size: 14px;
+      padding-right: 20px !important; }
+
+
+      .home-style{
+        /* padding-top:20px; */
+      }
+      
+      .home-heading-style{
+        padding-top: 200px;
+      }
+
+      .home-section-1{
+        margin-top: 30px;
+      }
+
+      /* Register page CSS style */
+      h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #524a4a;
+        text-align: center;
+        font-family: 'Dela Gothic One', cursive;
+        font-weight: 900;
+        
+      }
+      .register-container {
+        text-align: center;
+       
+      }
+
+      .register-container p {
+         width: 80%;
+         /* text-align: center; */
+         margin-left: 90px;
+      }
+
+      .register-style{
+        width: 50%;
+        height: 20%;
+        margin-top: 600px;
+        padding-top: 200px;
+        background-color: #007bff;
+      }
+
+      .register-form {
+        margin-left: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+
+        /* position:relative; */
+        top: 50%;
+        left: 50%;
+        width: 800px;
+        padding: 40px;
+        transform: translate(-50%, -50%);
+        background: rgba(0,0,0,.5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 10px;
+      }
+
+      .register-form .form-box {
+        position: relative;
+      }
+
+ 
+
+      .form-control-register{
+        /* position: relative; */
+        margin: 10px 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        border: 3px solid #BEFFF7;
+        background-color: #BEFFF7;
+
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+
+
+  
+        
+
+      }
+
+
+      @media (max-width: 575.98px) {
+            .form-control-register {
+              display: block;
+              width: 100%;
+              font-size: 8px;
+              /* overflow-x: auto; */
+             }
+
+
+              .register-form {
+              display: block;
+              width: 400px;
+              
+              /* overflow-x: auto; */
+              }
+
+              .register-form .form-box label {
+               
+                padding: 10px 0;
+                font-size:4px;
+               
+              }
+
+              .register-form .form-box .form-control-register:focus ~ label,
+              .register-form .form-box .form-control-register:valid ~ label {
+                top: -14px;
+                left: 0;
+                color: #03e9f4;
+                font-size: 8px;
+              }
+
+              .register-container{
+                text-align: center;
+              }
+      }
+        
+
+
+      .register-form .form-box label {
+        position: absolute;
+        top:0;
+        left: 0;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        pointer-events: none;
+        transition: .5s;
+      }
+
+      .register-form .form-box .form-control-register:focus ~ label,
+      .register-form .form-box .form-control-register:valid ~ label {
+        top: -10px;
+        left: 0;
+        color: #03e9f4;
+        font-size: 12px;
+      }
+
+
+      .register-form form button {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #03e9f4;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        margin-top: 40px;
+        letter-spacing: 4px
+      }
+
+        .register-form button:hover {
+          background: #03e9f4;
+          color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 5px #03e9f4,
+                      0 0 25px #03e9f4,
+                      0 0 50px #03e9f4,
+                      0 0 100px #03e9f4;
+        }
+
+      .register-form button span {
+        position: absolute;
+        display: block;
+      }
+
+      .register-form button span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, #03e9f4);
+        animation: btn-anim1 1s linear infinite;
+      }
+
+
+      @keyframes btn-anim1 {
+        0% {
+          left: -100%;
+        }
+        50%,100% {
+          left: 100%;
+        }
+      }
+
+      .register-form button span:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, #03e9f4);
+        animation: btn-anim2 1s linear infinite;
+        animation-delay: .25s
+      }
+
+      @keyframes btn-anim2 {
+        0% {
+          top: -100%;
+        }
+        50%,100% {
+          top: 100%;
+        }
+      }
+
+      .register-form button span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, transparent, #03e9f4);
+        animation: btn-anim3 1s linear infinite;
+        animation-delay: .5s
+      }
+
+      @keyframes btn-anim3 {
+        0% {
+          right: -100%;
+        }
+        50%,100% {
+          right: 100%;
+        }
+      }
+
+      .register-form button span:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent, #03e9f4);
+        animation: btn-anim4 1s linear infinite;
+        animation-delay: .75s
+      }
+
+      @keyframes btn-anim4 {
+        0% {
+          bottom: -100%;
+        }
+        50%,100% {
+          bottom: 100%;
+        }
+      } 
+
+
+      .registration-page-right{
+        position:absolute;
+        /* background-color: #007bff; */
+        margin-top: -1800px;
+        margin-left: 80px;
+
+        width: 54%;
+      }
+
+
+
+
+
+
+
+
+        
+  </style>
+	
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+        <a class="navbar-brand" href="/"><img src="{% static 'website/images/oya-dentist-logo.png' %}" alt="dentist-logo" style="width:300px;"> <p class="logo-sub-heading-style">Dental Praktijk</p></a>
+        
+        
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+     
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">{% translate "About" %}</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">{% translate "Services" %}</a></li>
+	          <li class="nav-item"><a href="doctors.html" class="nav-link">{% translate "Doctors" %}</a></li>
+	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">{% translate "Contact" %}</a></li>
+	          <li class="nav-item cta"><a href="contact.html" class="nav-link" ><span>{% translate "Make an Appointment" %}</span></a></li>
+	        </ul>
+
+   
+	      </div>
+	    </div>
+
+      <div>
+        <ul class="language-list">
+          <div class="lang-and-logo">
+            <img src="{% static 'website/images/language.png' %}" alt="lang-logo">
+            <li class="init">languages</li>
+          </div>
+         
+         
+        
+  
+  
+        {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_current_language_bidi as LANGUAGE_BIDI %}
+        {% get_language_info_list for LANGUAGES as languages %}
+     
+  
+        {% for lang in languages %}
+      
+        <li data-value="{{lang.name}}"><a href="/{{lang.code}}/"> {{lang.name_local}}</a></li>
+           
+          
+        
+        {% endfor %}
+  
+      </ul>
+
+      <div class="register-btn">
+        <a href="{% url 'register' %}" class="register-patient">Register as Patient</a>
+      </div>
+
+      <!-- <div class="register">
+        <a class="btn cta">Register as Patient</a>
+      </div> -->
+
+      <!-- <div class="register-btn">
+        <a href="#" class="register">
+            <span class="register_glow"></span>
+            <span class="register_side button-register_front">Register as Patient</span>
+            <span class="register_side button-register_bottom"></span>
+            <span class="register_side button-register_back"></span>
+            <span class="register_side button-register_top"></span>
+            <span class="register_side button-register_left"></span>
+            <span class="register_side button-register_right"></span>
+        </a>
+    </div> -->
+
+   
+    </div>
+
+
+
+
+   
+      
+	  </nav>
+    <!-- <br><br><br><br> -->
+
+
+
+
+    <!-- END nav -->
+
+
+
+{% block content %}
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-3">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Blue Tulip.</h2>
+                <p>{% translate "Explore the exciting world of teledentistry and how virtual consultations and remote monitoring are changing the way we access dental care" %}</p>
+              </div>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="ftco-footer-widget mb-4 ml-md-5">
+                <h2 class="ftco-heading-2">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="about.html" class="py-2 d-block">{% translate "About" %}</a></li>
+                  <li><a href="services.html" class="py-2 d-block">{% translate "Services" %}</a></li>
+                  <li><a href="doctors.html" class="py-2 d-block">{% translate "Doctors" %}</a></li>
+                  <li><a href="blog.html" class="py-2 d-block">Blog</a></li>
+                  <li><a href="contact.html" class="py-2 d-block">{% translate "Contact" %}</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 pr-md-4">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">{% translate "Recent Blog" %}</h2>
+                <div class="block-21 mb-4 d-flex">
+                  <a class="blog-img mr-4 footer-img-4" ></a> 
+                  <div class="text">
+                    <h3 class="heading"><a href="#">{% translate "helping others make informed choices about their oral healthcare providers." %}</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                      <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                      <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-21 mb-4 d-flex">
+                  <a class="blog-img mr-4 footer-img-5" ></a>
+                  <div class="text">
+                    <h3 class="heading"><a href="#">{% translate "I found the dental blog incredibly informative and engaging" %}</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                      <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                      <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Office</h2>
+                  <div class="block-23 mb-3">
+                    <ul>
+                      <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                      <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                      <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+  
+  
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    
+  
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  
+    <!-- Modal -->
+    <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalRequestLabel">Make an Appointment</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
+                <input type="text" class="form-control" id="appointment_name" placeholder="Full Name">
+              </div>
+              <div class="form-group">
+                <!-- <label for="appointment_email" class="text-black">Email</label> -->
+                <input type="text" class="form-control" id="appointment_email" placeholder="Email">
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <!-- <label for="appointment_date" class="text-black">Date</label> -->
+                    <input type="text" class="form-control appointment_date" placeholder="Date">
+                  </div>    
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <!-- <label for="appointment_time" class="text-black">Time</label> -->
+                    <input type="text" class="form-control appointment_time" placeholder="Time">
+                  </div>
+                </div>
+              </div>
+              
+  
+              <div class="form-group">
+                <!-- <label for="appointment_message" class="text-black">Message</label> -->
+                <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Make an Appointment" class="btn btn-primary">
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  
+  
+    <script src="{% static 'website/js/jquery.min.js' %}"></script>
+    <script src="{% static 'website/js/jquery-migrate-3.0.1.min.js' %}"></script>
+    <script src="{% static 'website/js/popper.min.js' %}"></script>
+    <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'website/js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'website/js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'website/js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'website/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'website/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'website/js/aos.js' %}"></script>
+    <script src="{% static 'website/js/jquery.animateNumber.min.js' %}"></script>
+    <script src="{% static 'website/js/bootstrap-datepicker.js' %}"></script>
+    <script src="{% static 'website/js/jquery.timepicker.min.js' %}"></script>
+    <script src="{% static 'website/js/scrollax.min.js' %}"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC13pn9RRKj2JwT6LQIIwLWzZWIP_cV7RY&sensor=false"></script> -->
+    <!-- <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC13pn9RRKj2JwT6LQIIwLWzZWIP_cV7RY&callback=initMap">
+    </script> -->
+    
+    <!-- <script src="{% static 'website/js/google-map.js' %}"></script> -->
+    <script>
+        function initMap(){
+    let leidschendam = {lat: 52.0940203, lng: 4.3851613}
+    let map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 14, center: leidschendam}
+    );
+    let marker = new google.maps.Marker({position: leidschendam, map: map})
+  }
+
+    </script>
+    <script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC13pn9RRKj2JwT6LQIIwLWzZWIP_cV7RY&callback=initMap"></script>
+
+    <script src="{% static 'website/js/main.js' %}"></script>
+    <script src="{% static 'website/js/language.js' %}"></script> 
+    <!-- <script src="{% static 'website/js/register-btn.js' %}"></script> -->
+    
+
+  
+  </body>
+      
+  </html>

@@ -1,0 +1,261 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %} About White Tulip {% endblock %}
+
+{% block content %}
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item bread-item bg-1" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container" data-scrollax-parent="true">
+          <div class="row slider-text align-items-end">
+            <div class="col-md-7 col-sm-12 ftco-animate mb-5">
+              <p class="breadcrumbs" data-scrollax=" properties: { translateY: '70%', opacity: 1.6}"><span class="mr-2"><a href="/">Home</a></span> <span>About</span></p>
+              <h1 class="mb-3" data-scrollax=" properties: { translateY: '70%', opacity: .9}">{% translate "About Us" %}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<section class="ftco-section">
+    	<div class="container">
+    		<div class="row d-md-flex">
+	    		<div class="col-md-6 ftco-animate img about-image order-md-last about" >
+	    		</div>
+	    		<div class="col-md-6 ftco-animate pr-md-5 order-md-first">
+		    		<div class="row">
+		          <div class="col-md-12 nav-link-wrap mb-5">
+		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		              <a class="nav-link active" id="v-pills-whatwedo-tab" data-toggle="pill" href="#v-pills-whatwedo" role="tab" aria-controls="v-pills-whatwedo" aria-selected="true">{% translate "What we do" %}</a>
+
+		              <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-mission" role="tab" aria-controls="v-pills-mission" aria-selected="false">{% translate "Our mission" %}</a>
+
+		              <a class="nav-link" id="v-pills-goal-tab" data-toggle="pill" href="#v-pills-goal" role="tab" aria-controls="v-pills-goal" aria-selected="false">{% translate "Our goal" %}</a>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex align-items-center">
+		            
+		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+		              <div class="tab-pane fade show active" id="v-pills-whatwedo" role="tabpanel" aria-labelledby="v-pills-whatwedo-tab">
+		              	<div>
+			                <h2 class="mb-4">{% translate "We Offer High Quality Services" %}</h2>
+			              	<p>{% translate "Today, I am thrilled to share with you the essence of what we stand for in the world of dentistry: 'We Offer High-Quality Services.' These words are not just a statement but a promise that we uphold with unwavering commitment and dedication." %}</p>
+							<p>{% translate "When you step into our dental practice, you are stepping into an environment where excellence is the standard. From the moment you walk through our doors, you will experience the difference that high-quality dental services can make." %}</p>
+							<p>{% translate "Our team of skilled and compassionate professionals is dedicated to providing you with the finest care. Whether you seek routine check-ups, cosmetic enhancements, or restorative treatments, rest assured that your smile is in the hands of experts who prioritize your well-being." %}</p>
+							<p>{% translate "In conclusion, when we say, 'We Offer High-Quality Services,' we mean that your smile, your comfort, and your satisfaction are our top priorities. We are dedicated to providing you with dental care that not only meets but exceeds your expectations. We invite you to experience the difference for yourself and join us on a journey towards a healthier, more radiant smile." %}</p>
+				            <p>{% translate "Thank you for considering us as your partners in oral health, and we look forward to serving you with the utmost care and expertise." %}</p>
+						</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-mission" role="tabpanel" aria-labelledby="v-pills-mission-tab">
+		                <div>
+			                <h2 class="mb-4">{% translate "To Accomodate All Patients" %}</h2>
+			              	<p>{% translate "We believe that quality dental care should be accessible to everyone, regardless of their unique needs, backgrounds, or circumstances. Our commitment to accommodating all patients is at the heart of everything we do." %}</p>
+			                <p>{% translate "When you choose our dental practice, you're not just choosing a healthcare provider; you're choosing an inclusive and compassionate environment where your individuality is respected and valued." %}</p>
+							<p>{% translate "But our commitment to accommodating all patients extends beyond the services we offer. We take pride in creating a welcoming and comfortable atmosphere where everyone feels at home. Our team is trained to provide care with sensitivity and empathy, ensuring that your experience is as stress-free as possible." %}</p>
+			                <p>{% translate "Our dedication to accommodating all patients is not just about the here and now; it's about fostering long-term relationships built on trust and mutual respect. We want to be your partners in oral health, supporting you on your journey to a healthier and more radiant smile." %}</p>
+							<p>{% translate "Thank you for considering us as your dental care provider, and we look forward to welcoming you into our inclusive and caring dental family." %}</p>
+				            </div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-goal" role="tabpanel" aria-labelledby="v-pills-goal-tab">
+		                <div>
+			                <h2 class="mb-4">{% translate "Help Our Customers Needs" %}</h2>
+			              	<p>{% translate "Today, I want to shed light on a fundamental aspect of our dental practice: our unwavering commitment to 'Help Our Customers Needs.' At the heart of everything we do is a deep understanding that our patients are unique individuals with specific dental needs, and it is our privilege and responsibility to assist them in achieving optimal oral health." %}</p>
+							<p>{% translate "Our team of experienced professionals is committed to providing you with the highest standard of care. We take the time to listen to your concerns, answer your questions, and involve you in decisions regarding your dental health. Your active participation in your treatment is essential to us." %}</p>
+							<p>{% translate "Moreover, our commitment to 'Help Our Customers Needs' extends beyond the chair. We are here to provide guidance and education, empowering you with the knowledge and tools to make informed decisions about your oral health. We believe that a well-informed patient is an empowered patient." %}</p>
+							<p>{% translate "In conclusion, when we say, 'Help Our Customers Needs,' we mean that your needs are at the forefront of our practice. Your smile is our mission, and we are dedicated to assisting you in achieving and maintaining optimal oral health. We are not just your dental care providers; we are your partners in a journey toward a healthier, happier smile." %}</p>
+				            </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section-2">
+    	<div class="container-wrap">
+      	<div class="row d-flex no-gutters">
+      		<div class="col-md-6 img about-2" >
+      		</div>
+      		<div class="col-md-6 d-flex">
+      			<div class="about-wrap">
+      				<div class="heading-section heading-section-white mb-5 ftco-animate">
+		            <h2 class="mb-2">{% translate "Blue Tulip with a personal touch" %}</h2>
+		            <p>{% translate "Join us in creating a world where every smile shines with confidence. Your smile's best friend is just a call away welcome to Blue Tulip." %}</p>
+		          </div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-check2"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>{% translate "Well Experience Dentist" %}</h3>
+	      					<p>{% translate "when you choose a well-experienced dentist, you're not just choosing a healthcare provider; you're choosing a partner in your oral health journey. You're choosing confidence, empathy, and a commitment to excellence." %}</p>
+      					</div>
+      				</div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-check2"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>{% translate "High Technology Facilities" %}</h3>
+	      					<p>{% translate "high-technology facilities have truly transformed the landscape of dentistry. They offer a glimpse into the future of oral healthcare, one that is characterized by precision, convenience, and patient-centric care. As we continue to embrace these advancements, we can look forward to even greater innovations that will further elevate the field of dentistry and keep our smiles healthy and radiant." %}</p>
+      					</div>
+      				</div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-check2"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>{% translate "Comfortable Clinics" %}</h3>
+	      					<p>{% translate "comfortable dental clinics are more than just places of treatment; they are sanctuaries of care and compassion. They reflect a commitment to patient well-being and a dedication to making dental visits not only painless but genuinely comfortable. As these clinics continue to redefine the dental experience, we can look forward to a future where oral healthcare is embraced with confidence and peace of mind." %}</p>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </section>
+
+    <section class="ftco-section testimony-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-2">{% translate "Testimony" %}</h2>
+            <span class="subheading">{% translate "Our Happy Customer Says" %}</span>
+          </div>
+        </div>
+        <div class="row justify-content-center ftco-animate">
+          <div class="col-md-8">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_1" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "Taking my kids to the dentist used to be a struggle until we discovered Blue Tulip Dental Clinic. The staff is fantastic with children, and they create a welcoming atmosphere that makes dental visits enjoyable for my kids." %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">{% translate "Marketing Manager" %}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_2" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "As an adult considering braces, I was hesitant, but the team at Blue Tulip Dental Clinic put me at ease. They explained the entire orthodontic process, and now, my smile is straighter than ever. I couldn't be happier!" %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">{% translate "Interface Designer" %}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_3" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "I had a dental emergency over the weekend, and I was in excruciating pain. I called Blue Tulip Dental Clinic, and they were able to see me right away. The dentist provided prompt and expert care, and I'm so grateful for their responsiveness." %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">UI Designer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_1" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "I had my teeth whitened at Blue Tulip Dental Clinic, and the results are incredible. My smile is noticeably brighter, and the procedure was quick and comfortable. I can't stop smiling!" %}</p>
+                    <p class="name">Frank Johansen</p>
+                    <span class="position">{% translate "Web Developer" %}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5 person_1" >
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5">{% translate "As an adult considering braces, I was hesitant, but the team at Blue Tulip Dental Clinic put me at ease. They explained the entire orthodontic process, and now, my smile is straighter than ever. I couldn't be happier!" %}</p>
+                    <p class="name">Dennis Green</p>
+                    <span class="position">{% translate "System Analytics" %}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-counter img bg-1" id="section-counter"  data-stellar-background-ratio="0.5">
+    	<div class="container">
+    		<div class="row d-flex align-items-center">
+    			<div class="col-md-3 aside-stretch py-5">
+    				<div class=" heading-section heading-section-white ftco-animate pr-md-4">
+	            <h2 class="mb-3">{% translate "Achievements" %}</h2>
+	            <p>{% translate "Achievements are the tangible results of dedication, effort, and perseverance, showcasing our potential and progress." %}</p>
+	          </div>
+    			</div>
+    			<div class="col-md-9 py-5 pl-md-5">
+		    		<div class="row">
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="14">0</strong>
+		                <span>{% translate "Years of Experience" %}</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="4500">0</strong>
+		                <span>{% translate "Qualified Dentist" %}</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="4200">0</strong>
+		                <span>{% translate "Happy Smiling Customer" %}</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="320">0</strong>
+		                <span>{% translate "Patients Per Year" %}</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+	      </div>
+    	</div>
+    </section>
+
+    
+    {% endblock %}

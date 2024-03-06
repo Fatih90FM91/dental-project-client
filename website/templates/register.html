@@ -1,0 +1,198 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %} Register Patient White Tulip {% endblock %}
+
+
+
+
+{% block content %}
+
+
+
+
+
+
+
+<!-- <div class= 'form-control-register  register-style' >
+
+
+</div> -->
+
+<section class="home-slider owl-carousel home-style">
+    <div class="slider-item bg-1" >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text align-items-center" data-scrollax-parent="true">
+          <div class="col-md-6 col-sm-12 ftco-animate home-heading-style" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Modern Dentistry in a Calm and Relaxed Environment" %}</h1>
+            <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Transform Your Smile with Modern Dentistry: Achieve Your Desired Perfect Smile through Innovative Techniques and Expert Care" %}</p>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="contact.html" class="btn btn-primary px-4 py-3" >{% translate "Make an Appointment" %}</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-item bg-2" >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text align-items-center" data-scrollax-parent="true">
+          <div class="col-md-6 col-sm-12 ftco-animate home-heading-style" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Modern Achieve Your Desired Perfect Smile" %}</h1>
+            <p class="mb-4">{% translate "Transform Your Smile with Modern Dentistry: Achieve Your Desired Perfect Smile through Innovative Techniques and Expert Care" %}</p>
+            <p><a href="#" class="btn btn-primary px-4 py-3">{% translate "Make an Appointment" %}</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section class="ftco-section contact-section ftco-degree-bg">
+  <div class="register-container">
+    <h2>{% translate "Register at Blue Tulip" %}</h2>
+    <p>
+      {% translate "You are welcome to register with us. Please fill out the information below and we will contact you within two working days.Do you want to register more than one person such as your partner or children? After submitting the completed registration form, this page will automatically refresh to allow you to complete another registration form if necessary.Would you please bring your health care card on your first visit? Thanks in advance!" %}
+    </p>
+  </div>
+  
+<div class="list-services d-flex ftco-animate register-form">
+ 
+    <form method="POST" enctype='multipart/form-data'>
+        
+        {% csrf_token %}
+        
+        
+        <!-- {{form.as_ul}} -->
+
+
+        <div class="form-group form-box">
+          {{ form.first_name }}
+          <label>{% translate "First Name" %}<span  style="color:red"> *</span></label>
+         </div>
+        <div class="form-group form-box">
+          {{ form.last_name }}
+          <label>{% translate "Last Name" %}<span  style="color:red"> *</span></label>
+          </div>
+          <div class="form-group form-box">
+            {{ form.gender }}
+            <label>{% translate "Gender" %}</label>
+           </div>
+          <div class="form-group form-box">
+            {{ form.email}}
+            <label>Email<span  style="color:red"> *</span></label>
+            
+            </div>
+            <div class="form-group form-box">
+              {{ form.phone }}
+              <label>{% translate "Phone" %}<span  style="color:red"> *</span></label>
+             </div>
+            <div class="form-group form-box">
+              {{ form.date_of_birth}}
+              <label>{% translate "Date of birth" %}<span  style="color:red"> *</span></label>
+              </div>
+              <div class="form-group form-box">
+                {{ form.house_number }}
+                <label>{% translate "House Number" %}<span  style="color:red"> *</span></label>
+               </div>
+              <div class="form-group form-box">
+                {{ form.city}}
+                <label>{% translate "City" %}<span  style="color:red"> *</span></label>
+                </div>
+                <div class="form-group form-box">
+                  {{ form.state }}
+                  <label>{% translate "State" %}<span  style="color:red"> *</span></label>
+                 </div>
+                <div class="form-group form-box">
+                  {{ form.zipcode}}
+                  <label>{% translate "Zipcode" %}<span  style="color:red"> *</span></label>
+                  </div>
+                  <div class="form-group form-box">
+                    {{ form.street }}
+                    <label>{% translate "Street" %}<span  style="color:red"> *</span></label>
+                   </div>
+                  <div class="form-group form-box">
+                    {{ form.how_hear_about_us}}
+                    <label>{% translate "How Do you hear about Us?" %}<span  style="color:red"> *</span></label>
+                    </div>
+                    <div class="form-group form-box">
+                      {{ form.question }}
+                      <label>{% translate "Question" %}</label>
+                     </div>
+                    <div class="form-group form-box">
+                      {{ form.are_you_member }}
+                      <label>{% translate "Are you member?" %}<span  style="color:red"> *</span></label>
+                      </div>
+
+        <!-- <button class="btn btn-secondary">Register</button> -->
+        <button type="submit">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          {% translate "Register" %}
+        </button>
+
+    </form>
+
+  </div>
+
+  <!-- <div class="registration-page-right">
+      <h4>Openings Time</h4>
+      <ul>
+        <li>monday</li>
+        <li>tuesday</li>
+        <li>wednesday</li>
+        <li>thursday</li>
+        <li>friday</li>
+      </ul>
+  </div> -->
+  <!-- <div class="row no-gutters registration-page-right">
+    <div class="col-md-3 color-1 p-4">
+      <h3 class="mb-4">{% translate "Emergency Cases" %}</h3>
+      <p>{% translate "Please do not hesitate to contact me for any additional information or assistance required." %}</p>
+      <span class="phone-number">+ (123) 456 7890</span>
+    </div>
+    <div class="col-md-3 color-2 p-4">
+      <h3 class="mb-4">{% translate "Opening Hours" %}</h3>
+      <p class="openinghours d-flex">
+        <span>{% translate "Monday - Friday" %}</span>
+        <span>8:00 - 19:00</span>
+      </p>
+      <p class="openinghours d-flex">
+        <span>{% translate "Saturday" %}</span>
+        <span>10:00 - 17:00</span>
+      </p>
+      <p class="openinghours d-flex">
+        <span>{% translate "Sunday" %}</span>
+        <span>10:00 - 16:00</span>
+      </p>
+    </div>
+  </div> -->
+
+</section>
+
+
+<div id="map">Map In Here!!</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

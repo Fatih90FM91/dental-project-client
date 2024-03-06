@@ -1,0 +1,251 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %} Blog Comment Blue Tulip {% endblock %}
+
+{% block content %}
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item bread-item bg-1"  data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container" data-scrollax-parent="true">
+          <div class="row slider-text align-items-end">
+            <div class="col-md-7 col-sm-12 ftco-animate mb-5">
+              <p class="breadcrumbs" data-scrollax=" properties: { translateY: '70%', opacity: 1.6}"><span class="mr-2"><a href="/">Home</a></span> <span>Blog</span></p>
+              <h1 class="mb-3" data-scrollax=" properties: { translateY: '70%', opacity: .9}">{% translate "Read Our Blog" %}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 ftco-animate">
+            <h2 class="mb-3">{% translate "Unlocking the Secrets to a Beautiful Smile: Cosmetic Dentistry Explained" %}</h2>
+            <p>{% translate "Cosmetic dentistry is more than just a branch of dentistry; it's a form of artistry that has the power to transform lives. It's the magic wand that can turn dental imperfections into a symphony of radiance, boosting not just our appearance but also our self-esteem." %}</p>
+            <p>
+              <img src="{% static 'website/images/image_4.jpg' %}" alt="" class="img-fluid">
+            </p>
+            <p>{% translate "When we delve into the realm of cosmetic dentistry, we encounter a fascinating world where science meets aesthetics. It's a world where the skills of dental professionals are akin to those of artists, sculpting and crafting smiles that radiate beauty and confidence." %}</p>
+            <h2 class="mb-3 mt-5">{% translate "The Power of Prevention: How Daily Habits Impact Your Dental Health" %}</h2>
+            <p>{% translate "But what exactly is cosmetic dentistry? It's a field that encompasses a wide array of treatments and procedures designed to enhance the aesthetics of our teeth and smile. From teeth whitening and veneers to dental implants and orthodontics, the possibilities are endless." %}</p>
+            <p>
+              <img src="{% static 'website/images/image_5.jpg' %}" alt="" class="img-fluid">
+            </p>
+            <p>{% translate "One of the most enchanting aspects of cosmetic dentistry is its ability to cater to the unique needs and desires of each patient. Your dream smile is not a one-size-fits-all concept; it's a personalized masterpiece that takes into account your facial structure, skin tone, and individual preferences." %}</p>
+            <p>{% translate "Cosmetic dentistry is not merely about aesthetics; it's about function and health as well. Procedures like dental implants not only restore missing teeth but also improve oral health and overall well-being. A beautiful smile should not just look good; it should feel good and function perfectly." %}</p>
+            <p>{% translate "Furthermore, the impact of cosmetic dentistry goes beyond the surface. A transformed smile has the power to boost confidence, enhance social interactions, and even positively affect professional opportunities. It's a testament to the profound connection between our oral and emotional well-being." %}</p>
+            <p>{% translate "In conclusion, unlocking the secrets to a beautiful smile through cosmetic dentistry is not just about enhancing appearances; it's about embracing a new level of self-confidence and well-being. It's about understanding that a radiant smile is within reach, and it's achievable through the expertise and artistry of cosmetic dentistry." %}</p>
+            <p>{% translate "So, I invite each of you to explore this captivating world, to consider the possibilities, and to envision the smile of your dreams. It's not just a journey to a beautiful smile; it's a journey to a more confident, radiant, and empowered you." %}</p>
+            <p>{% translate "Thank you for joining me on this journey of discovery, and I hope that cosmetic dentistry continues to inspire and empower you to unlock the secrets to a beautiful smile." %}</p>
+            <div class="tag-widget post-tag-container mb-5 mt-5">
+              <div class="tagcloud">
+                <a href="#" class="tag-cloud-link">Life</a>
+                <a href="#" class="tag-cloud-link">Sport</a>
+                <a href="#" class="tag-cloud-link">Tech</a>
+                <a href="#" class="tag-cloud-link">Travel</a>
+              </div>
+            </div>
+            
+            <div class="about-author d-flex p-5 bg-light">
+              <div class="bio align-self-md-center mr-5">
+                <img src="{% static 'website/images/person_1.jpg' %}" alt="Image placeholder" class="img-fluid mb-4">
+              </div>
+              <div class="desc align-self-md-center">
+                <h3>Michael Buff</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+              </div>
+            </div>
+
+
+            <div class="pt-5 mt-5">
+              <h3 class="mb-5">6 Comments</h3>
+              <ul class="comment-list">
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="{% static 'website/images/person_1.jpg' %}" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta">June 27, 2018 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="{% static 'website/images/person_1.jpg' %}" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta">June 27, 2018 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+
+                  <ul class="children">
+                    <li class="comment">
+                      <div class="vcard bio">
+                        <img src="{% static 'website/images/person_1.jpg' %}" alt="Image placeholder">
+                      </div>
+                      <div class="comment-body">
+                        <h3>John Doe</h3>
+                        <div class="meta">June 27, 2018 at 2:21pm</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                        <p><a href="#" class="reply">Reply</a></p>
+                      </div>
+
+
+                      <ul class="children">
+                        <li class="comment">
+                          <div class="vcard bio">
+                            <img src="{% static 'website/images/person_1.jpg' %}" alt="Image placeholder">
+                          </div>
+                          <div class="comment-body">
+                            <h3>John Doe</h3>
+                            <div class="meta">June 27, 2018 at 2:21pm</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                            <p><a href="#" class="reply">Reply</a></p>
+                          </div>
+
+                            <ul class="children">
+                              <li class="comment">
+                                <div class="vcard bio">
+                                  <img src="{% static 'website/images/person_1.jpg' %}" alt="Image placeholder">
+                                </div>
+                                <div class="comment-body">
+                                  <h3>John Doe</h3>
+                                  <div class="meta">June 27, 2018 at 2:21pm</div>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                                  <p><a href="#" class="reply">Reply</a></p>
+                                </div>
+                              </li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="{% static 'website/images/person_1.jpg' %}" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta">June 27, 2018 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+                </li>
+              </ul>
+              <!-- END comment-list -->
+              
+              <div class="comment-form-wrap pt-5">
+                <h3 class="mb-5">Leave a comment</h3>
+                <form action="#">
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Your Name">
+		              </div>
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Your Email">
+		              </div>
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Subject">
+		              </div>
+		              <div class="form-group">
+		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+		              </div>
+		              <div class="form-group">
+		                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+		              </div>
+		            </form>
+              </div>
+            </div>
+
+          </div> <!-- .col-md-8 -->
+					<div class="col-md-4 sidebar ftco-animate">
+            <div class="sidebar-box">
+              <form action="#" class="search-form">
+                <div class="form-group">
+                	<div class="icon"><span class="icon-search"></span></div>
+                  <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
+                </div>
+              </form>
+            </div>
+            <div class="sidebar-box ftco-animate">
+              <div class="categories">
+                <h3>Categories</h3>
+                <li><a href="#">Food <span>(12)</span></a></li>
+                <li><a href="#">Dish <span>(22)</span></a></li>
+                <li><a href="#">Desserts <span>(37)</span></a></li>
+                <li><a href="#">Drinks <span>(42)</span></a></li>
+                <li><a href="#">Ocassion <span>(14)</span></a></li>
+              </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3>Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4 image_1" ></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">{% translate "Unlocking the Secrets to a Beautiful Smile: Cosmetic Dentistry Explained" %}</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4 image_2" ></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">{% translate "The Power of Prevention: How Daily Habits Impact Your Dental Health" %}</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4 image_3" ></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">{% translate "Behind the Scenes: What Really Happens During a Dental Checkup" %}</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3>Tag Cloud</h3>
+              <div class="tagcloud">
+                <a href="#" class="tag-cloud-link">dish</a>
+                <a href="#" class="tag-cloud-link">menu</a>
+                <a href="#" class="tag-cloud-link">food</a>
+                <a href="#" class="tag-cloud-link">sweet</a>
+                <a href="#" class="tag-cloud-link">tasty</a>
+                <a href="#" class="tag-cloud-link">delicious</a>
+                <a href="#" class="tag-cloud-link">desserts</a>
+                <a href="#" class="tag-cloud-link">drinks</a>
+              </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3>Paragraph</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+            </div>
+          </div>
+				</div>
+			</div>
+		</section>
+
+    
+    {% endblock %}

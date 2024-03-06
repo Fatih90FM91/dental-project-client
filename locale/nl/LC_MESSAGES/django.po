@@ -1,0 +1,1433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-09 00:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\dentist\settings.py:130
+msgid "English"
+msgstr ""
+
+#: .\dentist\settings.py:131
+msgid "Turkish"
+msgstr ""
+
+#: .\dentist\settings.py:132
+msgid "Dutch"
+msgstr ""
+
+#: .\dentist\urls.py:12
+msgid "admin/"
+msgstr ""
+
+#: .\website\templates\about.html:14 .\website\views.py:342
+#, fuzzy
+#| msgid "About"
+msgid "About Us"
+msgstr "Over Ons"
+
+#: .\website\templates\about.html:30 .\website\views.py:343
+msgid "What we do"
+msgstr "Wat we doen"
+
+#: .\website\templates\about.html:32 .\website\views.py:344
+msgid "Our mission"
+msgstr "Onze missie"
+
+#: .\website\templates\about.html:34 .\website\views.py:345
+msgid "Our goal"
+msgstr "Ons doel"
+
+#: .\website\templates\about.html:43 .\website\views.py:347
+msgid "We Offer High Quality Services"
+msgstr "Wij bieden diensten van hoge kwaliteit"
+
+#: .\website\templates\about.html:44 .\website\views.py:348
+msgid ""
+"Today, I am thrilled to share with you the essence of what we stand for in "
+"the world of dentistry: 'We Offer High-Quality Services.' These words are "
+"not just a statement but a promise that we uphold with unwavering commitment "
+"and dedication."
+msgstr ""
+"Vandaag ben ik blij om met u de essentie te delen van waar wij voor staan in "
+"de wereld van de tandheelkunde: 'Wij bieden diensten van hoge kwaliteit.' "
+"Deze woorden zijn niet zomaar een verklaring, maar een belofte die we met "
+"onwrikbare toewijding en toewijding nakomen."
+
+#: .\website\templates\about.html:45 .\website\views.py:349
+msgid ""
+"When you step into our dental practice, you are stepping into an environment "
+"where excellence is the standard. From the moment you walk through our "
+"doors, you will experience the difference that high-quality dental services "
+"can make."
+msgstr ""
+"Wanneer u onze tandartspraktijk binnenstapt, stapt u in een omgeving waar "
+"uitmuntendheid de norm is. Vanaf het moment dat u door onze deuren loopt, "
+"ervaart u het verschil dat hoogwaardige tandheelkundige diensten kunnen "
+"maken."
+
+#: .\website\templates\about.html:46 .\website\views.py:350
+msgid ""
+"Our team of skilled and compassionate professionals is dedicated to "
+"providing you with the finest care. Whether you seek routine check-ups, "
+"cosmetic enhancements, or restorative treatments, rest assured that your "
+"smile is in the hands of experts who prioritize your well-being."
+msgstr ""
+"Ons team van bekwame en meelevende professionals staat klaar om u de beste "
+"zorg te bieden. Of u nu op zoek bent naar routinecontroles, cosmetische "
+"verbeteringen of herstellende behandelingen, u kunt er zeker van zijn dat uw "
+"glimlach in handen is van experts die prioriteit geven aan uw welzijn."
+
+#: .\website\templates\about.html:47 .\website\views.py:351
+msgid ""
+"In conclusion, when we say, 'We Offer High-Quality Services,' we mean that "
+"your smile, your comfort, and your satisfaction are our top priorities. We "
+"are dedicated to providing you with dental care that not only meets but "
+"exceeds your expectations. We invite you to experience the difference for "
+"yourself and join us on a journey towards a healthier, more radiant smile."
+msgstr ""
+"Concluderend: als we zeggen: 'Wij bieden diensten van hoge kwaliteit', "
+"bedoelen we dat uw glimlach, uw comfort en uw tevredenheid onze "
+"topprioriteiten zijn. Wij doen er alles aan om u tandheelkundige zorg te "
+"bieden die niet alleen aan uw verwachtingen voldoet, maar deze zelfs "
+"overtreft. Wij nodigen u uit om zelf het verschil te ervaren en met ons mee "
+"te gaan op reis naar een gezondere, stralendere glimlach."
+
+#: .\website\templates\about.html:48 .\website\views.py:352
+msgid ""
+"Thank you for considering us as your partners in oral health, and we look "
+"forward to serving you with the utmost care and expertise."
+msgstr ""
+"Bedankt dat u ons beschouwt als uw partner op het gebied van mondgezondheid, "
+"en we kijken ernaar uit u met de grootst mogelijke zorg en expertise van "
+"dienst te zijn."
+
+#: .\website\templates\about.html:54 .\website\views.py:353
+msgid "To Accomodate All Patients"
+msgstr "Om alle patiënten tegemoet te komen"
+
+#: .\website\templates\about.html:55 .\website\views.py:354
+msgid ""
+"We believe that quality dental care should be accessible to everyone, "
+"regardless of their unique needs, backgrounds, or circumstances. Our "
+"commitment to accommodating all patients is at the heart of everything we do."
+msgstr ""
+"Wij zijn van mening dat hoogwaardige tandheelkundige zorg voor iedereen "
+"toegankelijk moet zijn, ongeacht hun unieke behoeften, achtergronden of "
+"omstandigheden. Onze toewijding om alle patiënten tegemoet te komen vormt de "
+"kern van alles wat we doen."
+
+#: .\website\templates\about.html:56 .\website\views.py:355
+msgid ""
+"When you choose our dental practice, you're not just choosing a healthcare "
+"provider; you're choosing an inclusive and compassionate environment where "
+"your individuality is respected and valued."
+msgstr ""
+"Als u voor onze tandartspraktijk kiest, kiest u niet alleen voor een "
+"zorgaanbieder; je kiest voor een inclusieve en medelevende omgeving waar je "
+"individualiteit wordt gerespecteerd en gewaardeerd."
+
+#: .\website\templates\about.html:57 .\website\views.py:356
+msgid ""
+"But our commitment to accommodating all patients extends beyond the services "
+"we offer. We take pride in creating a welcoming and comfortable atmosphere "
+"where everyone feels at home. Our team is trained to provide care with "
+"sensitivity and empathy, ensuring that your experience is as stress-free as "
+"possible."
+msgstr ""
+"Maar onze inzet om alle patiënten tegemoet te komen, reikt verder dan de "
+"diensten die wij aanbieden. Wij zijn er trots op dat we een gastvrije en "
+"comfortabele sfeer creëren waarin iedereen zich thuis voelt. Ons team is "
+"getraind om zorg te bieden met gevoeligheid en empathie, zodat uw ervaring "
+"zo stressvrij mogelijk is."
+
+#: .\website\templates\about.html:58 .\website\views.py:357
+msgid ""
+"Our dedication to accommodating all patients is not just about the here and "
+"now; it's about fostering long-term relationships built on trust and mutual "
+"respect. We want to be your partners in oral health, supporting you on your "
+"journey to a healthier and more radiant smile."
+msgstr ""
+"Maar onze inzet om alle patiënten tegemoet te komen, reikt verder dan de "
+"diensten die wij aanbieden. Wij zijn er trots op dat we een gastvrije en "
+"comfortabele sfeer creëren waarin iedereen zich thuis voelt. Ons team is "
+"getraind om zorg te bieden met gevoeligheid en empathie, zodat uw ervaring "
+"zo stressvrij mogelijk is."
+
+#: .\website\templates\about.html:59 .\website\views.py:358
+msgid ""
+"Thank you for considering us as your dental care provider, and we look "
+"forward to welcoming you into our inclusive and caring dental family."
+msgstr ""
+"Bedankt dat u ons als uw tandheelkundige zorgverlener beschouwt, en we "
+"kijken ernaar uit u te mogen verwelkomen in onze inclusieve en zorgzame "
+"tandheelkundige familie."
+
+#: .\website\templates\about.html:65 .\website\views.py:359
+msgid "Help Our Customers Needs"
+msgstr "Help de behoeften van onze klanten"
+
+#: .\website\templates\about.html:66 .\website\views.py:360
+msgid ""
+"Today, I want to shed light on a fundamental aspect of our dental practice: "
+"our unwavering commitment to 'Help Our Customers Needs.' At the heart of "
+"everything we do is a deep understanding that our patients are unique "
+"individuals with specific dental needs, and it is our privilege and "
+"responsibility to assist them in achieving optimal oral health."
+msgstr ""
+"Vandaag wil ik licht werpen op een fundamenteel aspect van onze "
+"tandartspraktijk: onze niet-aflatende inzet om 'de behoeften van onze "
+"klanten te helpen'. De kern van alles wat we doen is het diepgaande inzicht "
+"dat onze patiënten unieke individuen zijn met specifieke tandheelkundige "
+"behoeften, en het is ons voorrecht en onze verantwoordelijkheid om hen te "
+"helpen bij het bereiken van een optimale mondgezondheid."
+
+#: .\website\templates\about.html:67 .\website\views.py:361
+msgid ""
+"Our team of experienced professionals is committed to providing you with the "
+"highest standard of care. We take the time to listen to your concerns, "
+"answer your questions, and involve you in decisions regarding your dental "
+"health. Your active participation in your treatment is essential to us."
+msgstr ""
+"Ons team van ervaren professionals streeft ernaar u de hoogste zorgstandaard "
+"te bieden. Wij nemen de tijd om naar uw zorgen te luisteren, uw vragen te "
+"beantwoorden en u te betrekken bij beslissingen over uw tandheelkundige "
+"gezondheid. Uw actieve deelname aan uw behandeling is voor ons essentieel."
+
+#: .\website\templates\about.html:68 .\website\views.py:362
+#, fuzzy
+#| msgid ""
+#| "Moreover, our commitment to \"Help Our Customers Needs\" extends beyond "
+#| "the chair. We are here to provide guidance and education, empowering you "
+#| "with the knowledge and tools to make informed decisions about your oral "
+#| "health. We believe that a well-informed patient is an empowered patient."
+msgid ""
+"Moreover, our commitment to 'Help Our Customers Needs' extends beyond the "
+"chair. We are here to provide guidance and education, empowering you with "
+"the knowledge and tools to make informed decisions about your oral health. "
+"We believe that a well-informed patient is an empowered patient."
+msgstr ""
+"Bovendien reikt onze inzet om 'de behoeften van onze klanten te helpen' "
+"verder dan alleen de leerstoel. Wij zijn hier om begeleiding en onderwijs te "
+"bieden, zodat u de kennis en hulpmiddelen krijgt om weloverwogen "
+"beslissingen te nemen over uw mondgezondheid. Wij geloven dat een goed "
+"geïnformeerde patiënt een mondige patiënt is."
+
+#: .\website\templates\about.html:69
+msgid ""
+"In conclusion, when we say, 'Help Our Customers Needs,' we mean that your "
+"needs are at the forefront of our practice. Your smile is our mission, and "
+"we are dedicated to assisting you in achieving and maintaining optimal oral "
+"health. We are not just your dental care providers; we are your partners in "
+"a journey toward a healthier, happier smile."
+msgstr ""
+"Concluderend: als we zeggen: 'Help de behoeften van onze klanten', bedoelen "
+"we dat uw behoeften voorop staan in onze praktijk. Uw glimlach is onze "
+"missie en wij streven ernaar u te helpen bij het bereiken en behouden van "
+"een optimale mondgezondheid. Wij zijn niet alleen uw tandheelkundige "
+"zorgverleners; wij zijn uw partners op weg naar een gezondere, gelukkiger "
+"glimlach."
+
+#: .\website\templates\about.html:88 .\website\templates\home.html:200
+#: .\website\views.py:273
+msgid "Blue Tulip with a personal touch"
+msgstr "Blue Tulip met een persoonlijk tintje"
+
+#: .\website\templates\about.html:89 .\website\templates\home.html:201
+#: .\website\views.py:274
+msgid ""
+"Join us in creating a world where every smile shines with confidence. Your "
+"smile's best friend is just a call away welcome to Blue Tulip."
+msgstr ""
+"Werk samen met ons aan het creëren van een wereld waarin elke glimlach "
+"straalt van vertrouwen. De beste vriend van je glimlach is slechts één "
+"telefoontje verwijderd, welkom bij Blue Tulip."
+
+#: .\website\templates\about.html:96 .\website\templates\home.html:208
+#: .\website\views.py:275
+msgid "Well Experience Dentist"
+msgstr "Goed ervaren tandarts"
+
+#: .\website\templates\about.html:97 .\website\templates\home.html:209
+#: .\website\views.py:276
+msgid ""
+"when you choose a well-experienced dentist, you're not just choosing a "
+"healthcare provider; you're choosing a partner in your oral health journey. "
+"You're choosing confidence, empathy, and a commitment to excellence."
+msgstr ""
+"Als u voor een ervaren tandarts kiest, kiest u niet alleen voor een "
+"zorgaanbieder; u kiest een partner in uw mondgezondheidstraject. U kiest "
+"voor vertrouwen, empathie en een streven naar uitmuntendheid."
+
+#: .\website\templates\about.html:105 .\website\templates\home.html:217
+#: .\website\views.py:277
+msgid "High Technology Facilities"
+msgstr "Hoogwaardige technologische faciliteiten"
+
+#: .\website\templates\about.html:106 .\website\templates\home.html:218
+#: .\website\views.py:278
+msgid ""
+"high-technology facilities have truly transformed the landscape of "
+"dentistry. They offer a glimpse into the future of oral healthcare, one that "
+"is characterized by precision, convenience, and patient-centric care. As we "
+"continue to embrace these advancements, we can look forward to even greater "
+"innovations that will further elevate the field of dentistry and keep our "
+"smiles healthy and radiant."
+msgstr ""
+"Hoogtechnologische faciliteiten hebben het landschap van de tandheelkunde "
+"werkelijk getransformeerd. Ze bieden een kijkje in de toekomst van de "
+"mondzorg, die wordt gekenmerkt door precisie, gemak en patiëntgerichte zorg. "
+"Terwijl we deze ontwikkelingen blijven omarmen, kunnen we uitkijken naar nog "
+"grotere innovaties die het vakgebied van de tandheelkunde verder zullen "
+"verbeteren en onze glimlach gezond en stralend zullen houden."
+
+#: .\website\templates\about.html:114 .\website\templates\home.html:226
+#: .\website\views.py:279
+msgid "Comfortable Clinics"
+msgstr "Comfortabele klinieken"
+
+#: .\website\templates\about.html:115 .\website\templates\home.html:227
+#: .\website\views.py:280
+msgid ""
+"comfortable dental clinics are more than just places of treatment; they are "
+"sanctuaries of care and compassion. They reflect a commitment to patient "
+"well-being and a dedication to making dental visits not only painless but "
+"genuinely comfortable. As these clinics continue to redefine the dental "
+"experience, we can look forward to a future where oral healthcare is "
+"embraced with confidence and peace of mind."
+msgstr ""
+"Comfortabele tandheelkundige klinieken zijn meer dan alleen "
+"behandelplaatsen; het zijn heiligdommen van zorg en mededogen. Ze "
+"weerspiegelen een toewijding aan het welzijn van de patiënt en een "
+"toewijding om tandartsbezoeken niet alleen pijnloos maar ook echt "
+"comfortabel te maken. Terwijl deze klinieken de tandheelkundige ervaring "
+"blijven herdefiniëren, kunnen we uitkijken naar een toekomst waarin mondzorg "
+"met vertrouwen en gemoedsrust wordt omarmd."
+
+#: .\website\templates\about.html:128 .\website\templates\home.html:480
+#: .\website\views.py:308
+msgid "Testimony"
+msgstr "Getuigenis"
+
+#: .\website\templates\about.html:129 .\website\templates\home.html:481
+#: .\website\views.py:309
+msgid "Our Happy Customer Says"
+msgstr "Onze tevreden klant zegt"
+
+#: .\website\templates\about.html:143 .\website\templates\home.html:495
+#: .\website\views.py:310 .\website\views.py:316
+msgid ""
+"Taking my kids to the dentist used to be a struggle until we discovered Blue "
+"Tulip Dental Clinic. The staff is fantastic with children, and they create a "
+"welcoming atmosphere that makes dental visits enjoyable for my kids."
+msgstr ""
+"Met mijn kinderen naar de tandarts gaan was vroeger een hele opgave, totdat "
+"we Blue Tulip Dental Clinic ontdekten. Het personeel is fantastisch met "
+"kinderen en ze creëren een gastvrije sfeer die tandartsbezoeken voor mijn "
+"kinderen leuk maakt."
+
+#: .\website\templates\about.html:145 .\website\templates\home.html:497
+#: .\website\views.py:311
+msgid "Marketing Manager"
+msgstr "Marketingmanager"
+
+#: .\website\templates\about.html:157 .\website\templates\about.html:199
+#: .\website\templates\home.html:509 .\website\templates\home.html:551
+#: .\website\views.py:312
+msgid ""
+"As an adult considering braces, I was hesitant, but the team at Blue Tulip "
+"Dental Clinic put me at ease. They explained the entire orthodontic process, "
+"and now, my smile is straighter than ever. I couldn't be happier!"
+msgstr ""
+"Als volwassene die een beugel overweegt, aarzelde ik, maar het team van Blue "
+"Tulip Dental Clinic stelde me op mijn gemak. Ze legden het hele "
+"orthodontische proces uit en nu is mijn glimlach rechter dan ooit. Ik zou "
+"niet gelukkiger kunnen zijn!"
+
+#: .\website\templates\about.html:159 .\website\templates\home.html:511
+#: .\website\views.py:313
+msgid "Interface Designer"
+msgstr "Interface-ontwerper"
+
+#: .\website\templates\about.html:171 .\website\templates\home.html:523
+#: .\website\views.py:314
+msgid ""
+"I had a dental emergency over the weekend, and I was in excruciating pain. I "
+"called Blue Tulip Dental Clinic, and they were able to see me right away. "
+"The dentist provided prompt and expert care, and I'm so grateful for their "
+"responsiveness."
+msgstr ""
+"Ik had dit weekend een tandheelkundig noodgeval en ik had ondragelijke pijn. "
+"Ik belde Blue Tulip Dental Clinic en ze konden me meteen bereiken. De "
+"tandarts heeft snelle en deskundige zorg verleend en ik ben zo dankbaar voor "
+"hun reactievermogen."
+
+#: .\website\templates\about.html:185 .\website\templates\home.html:537
+#: .\website\views.py:318
+msgid ""
+"I had my teeth whitened at Blue Tulip Dental Clinic, and the results are "
+"incredible. My smile is noticeably brighter, and the procedure was quick and "
+"comfortable. I can't stop smiling!"
+msgstr ""
+"Ik heb mijn tanden laten bleken bij Blue Tulip Dental Clinic en de "
+"resultaten zijn ongelooflijk. Mijn glimlach is merkbaar helderder en de "
+"procedure verliep snel en comfortabel. Ik kan niet stoppen met lachen!"
+
+#: .\website\templates\about.html:187 .\website\templates\home.html:539
+#: .\website\views.py:317
+msgid "Web Developer"
+msgstr "Webontwikkelaar"
+
+#: .\website\templates\about.html:201 .\website\templates\home.html:553
+#: .\website\views.py:319
+msgid "System Analytics"
+msgstr "Systeemanalyse"
+
+#: .\website\templates\about.html:216 .\website\templates\doctors.html:185
+#: .\website\templates\home.html:332 .\website\templates\services.html:186
+#: .\website\views.py:296
+msgid "Achievements"
+msgstr "Prestaties"
+
+#: .\website\templates\about.html:217 .\website\templates\doctors.html:186
+#: .\website\templates\home.html:333 .\website\templates\services.html:187
+#: .\website\views.py:297
+msgid ""
+"Achievements are the tangible results of dedication, effort, and "
+"perseverance, showcasing our potential and progress."
+msgstr ""
+"Prestaties zijn de tastbare resultaten van toewijding, inspanning en "
+"doorzettingsvermogen, die ons potentieel en onze vooruitgang laten zien."
+
+#: .\website\templates\about.html:226 .\website\templates\doctors.html:195
+#: .\website\templates\home.html:342 .\website\templates\services.html:196
+#: .\website\views.py:298
+msgid "Years of Experience"
+msgstr "Jarenlange ervaring"
+
+#: .\website\templates\about.html:234 .\website\templates\doctors.html:203
+#: .\website\templates\home.html:350 .\website\templates\services.html:204
+#: .\website\views.py:299
+msgid "Qualified Dentist"
+msgstr "Gekwalificeerde tandarts"
+
+#: .\website\templates\about.html:242 .\website\templates\doctors.html:211
+#: .\website\templates\home.html:358 .\website\templates\services.html:212
+#: .\website\views.py:300
+msgid "Happy Smiling Customer"
+msgstr "Gelukkige lachende klant"
+
+#: .\website\templates\about.html:250 .\website\templates\doctors.html:219
+#: .\website\templates\home.html:366 .\website\templates\services.html:220
+#: .\website\views.py:301
+msgid "Patients Per Year"
+msgstr "Patiënten per jaar"
+
+#: .\website\templates\appointment.html:15 .\website\templates\home.html:15
+#: .\website\templates\register.html:29 .\website\views.py:211
+msgid "Modern Dentistry in a Calm and Relaxed Environment"
+msgstr "Moderne Tandheelkunde in een Rustige en Ontspannen Omgeving"
+
+#: .\website\templates\appointment.html:16
+#: .\website\templates\appointment.html:29 .\website\templates\home.html:16
+#: .\website\templates\home.html:29 .\website\templates\register.html:30
+#: .\website\templates\register.html:43 .\website\views.py:213
+msgid ""
+"Transform Your Smile with Modern Dentistry: Achieve Your Desired Perfect "
+"Smile through Innovative Techniques and Expert Care"
+msgstr ""
+"Transformeer uw glimlach met moderne tandheelkunde: bereik uw gewenste "
+"perfecte glimlach door innovatieve technieken en deskundige zorg"
+
+#: .\website\templates\appointment.html:17
+#: .\website\templates\appointment.html:30 .\website\templates\base.html:498
+#: .\website\templates\home.html:17 .\website\templates\home.html:30
+#: .\website\templates\home.html:63 .\website\templates\home.html:116
+#: .\website\templates\register.html:31 .\website\templates\register.html:44
+#: .\website\views.py:210
+msgid "Make an Appointment"
+msgstr "Maak een Afspraak"
+
+#: .\website\templates\appointment.html:28 .\website\templates\home.html:28
+#: .\website\templates\register.html:42 .\website\views.py:212
+msgid "Modern Achieve Your Desired Perfect Smile"
+msgstr "Modern Bereik uw gewenste perfecte glimlach"
+
+#: .\website\templates\base.html:493 .\website\templates\base.html:602
+#: .\website\views.py:208
+msgid "About"
+msgstr "Over"
+
+#: .\website\templates\base.html:494 .\website\templates\base.html:603
+#: .\website\templates\services.html:15 .\website\views.py:206
+msgid "Services"
+msgstr "Onze Praktijk"
+
+#: .\website\templates\base.html:495 .\website\templates\base.html:604
+#: .\website\views.py:207
+msgid "Doctors"
+msgstr "Onze Tandarts"
+
+#: .\website\templates\base.html:497 .\website\templates\base.html:606
+#: .\website\views.py:209
+msgid "Contact"
+msgstr "Contact"
+
+#: .\website\templates\base.html:590 .\website\views.py:337
+msgid ""
+"Explore the exciting world of teledentistry and how virtual consultations "
+"and remote monitoring are changing the way we access dental care"
+msgstr ""
+"Ontdek de opwindende wereld van teledentistry en hoe virtuele consultaties "
+"en monitoring op afstand de manier veranderen waarop we toegang krijgen tot "
+"tandheelkundige zorg"
+
+#: .\website\templates\base.html:612 .\website\views.py:338
+msgid "Recent Blog"
+msgstr "Recente blog"
+
+#: .\website\templates\base.html:616 .\website\views.py:339
+msgid ""
+"helping others make informed choices about their oral healthcare providers."
+msgstr ""
+"anderen helpen weloverwogen keuzes te maken over hun mondzorgaanbieders."
+
+#: .\website\templates\base.html:627 .\website\views.py:340
+msgid "I found the dental blog incredibly informative and engaging"
+msgstr "Ik vond de tandheelkundige blog ongelooflijk informatief en boeiend"
+
+#: .\website\templates\blog-single.html:15 .\website\templates\blog.html:15
+#: .\website\views.py:375
+msgid "Read Our Blog"
+msgstr "Lees Onze Blog"
+
+#: .\website\templates\blog-single.html:26
+#: .\website\templates\blog-single.html:195 .\website\templates\blog.html:38
+#: .\website\templates\blog.html:177 .\website\views.py:376
+msgid ""
+"Unlocking the Secrets to a Beautiful Smile: Cosmetic Dentistry Explained"
+msgstr ""
+"De geheimen van een mooie glimlach ontsluiten: cosmetische tandheelkunde "
+"uitgelegd"
+
+#: .\website\templates\blog-single.html:27 .\website\views.py:394
+msgid ""
+"Cosmetic dentistry is more than just a branch of dentistry; it's a form of "
+"artistry that has the power to transform lives. It's the magic wand that can "
+"turn dental imperfections into a symphony of radiance, boosting not just our "
+"appearance but also our self-esteem."
+msgstr ""
+"Cosmetische tandheelkunde is meer dan alleen een tak van de tandheelkunde; "
+"het is een vorm van kunstenaarschap die de kracht heeft om levens te "
+"transformeren. Het is de toverstaf die onvolkomenheden in het gebit kan "
+"veranderen in een symfonie van glans, waardoor niet alleen ons uiterlijk "
+"maar ook ons gevoel van eigenwaarde wordt vergroot."
+
+#: .\website\templates\blog-single.html:31 .\website\views.py:395
+msgid ""
+"When we delve into the realm of cosmetic dentistry, we encounter a "
+"fascinating world where science meets aesthetics. It's a world where the "
+"skills of dental professionals are akin to those of artists, sculpting and "
+"crafting smiles that radiate beauty and confidence."
+msgstr ""
+"Wanneer we ons verdiepen in de cosmetische tandheelkunde, komen we een "
+"fascinerende wereld tegen waar wetenschap en esthetiek samenkomen. Het is "
+"een wereld waar de vaardigheden van tandheelkundige professionals "
+"vergelijkbaar zijn met die van kunstenaars, waarbij ze een glimlach creëren "
+"en creëren die schoonheid en zelfvertrouwen uitstraalt."
+
+#: .\website\templates\blog-single.html:32
+#: .\website\templates\blog-single.html:206 .\website\templates\blog.html:56
+#: .\website\templates\blog.html:188 .\website\views.py:378
+msgid "The Power of Prevention: How Daily Habits Impact Your Dental Health"
+msgstr ""
+"De kracht van preventie: hoe dagelijkse gewoonten uw tandheelkundige "
+"gezondheid beïnvloeden"
+
+#: .\website\templates\blog-single.html:33 .\website\views.py:396
+msgid ""
+"But what exactly is cosmetic dentistry? It's a field that encompasses a wide "
+"array of treatments and procedures designed to enhance the aesthetics of our "
+"teeth and smile. From teeth whitening and veneers to dental implants and "
+"orthodontics, the possibilities are endless."
+msgstr ""
+"Maar wat is cosmetische tandheelkunde precies? Het is een vakgebied dat een "
+"breed scala aan behandelingen en procedures omvat die zijn ontworpen om de "
+"esthetiek van onze tanden en glimlach te verbeteren. Van het bleken van "
+"tanden en veneers tot tandheelkundige implantaten en orthodontie, de "
+"mogelijkheden zijn eindeloos."
+
+#: .\website\templates\blog-single.html:37 .\website\views.py:397
+msgid ""
+"One of the most enchanting aspects of cosmetic dentistry is its ability to "
+"cater to the unique needs and desires of each patient. Your dream smile is "
+"not a one-size-fits-all concept; it's a personalized masterpiece that takes "
+"into account your facial structure, skin tone, and individual preferences."
+msgstr ""
+"Een van de meest betoverende aspecten van cosmetische tandheelkunde is het "
+"vermogen om tegemoet te komen aan de unieke behoeften en wensen van elke "
+"patiënt. Jouw droomglimlach is geen one-size-fits-all concept; het is een "
+"gepersonaliseerd meesterwerk dat rekening houdt met uw gezichtsstructuur, "
+"huidskleur en individuele voorkeuren."
+
+#: .\website\templates\blog-single.html:38 .\website\views.py:398
+msgid ""
+"Cosmetic dentistry is not merely about aesthetics; it's about function and "
+"health as well. Procedures like dental implants not only restore missing "
+"teeth but also improve oral health and overall well-being. A beautiful smile "
+"should not just look good; it should feel good and function perfectly."
+msgstr ""
+"Cosmetische tandheelkunde gaat niet alleen over esthetiek; het gaat ook om "
+"functioneren en gezondheid. Procedures zoals tandheelkundige implantaten "
+"herstellen niet alleen ontbrekende tanden, maar verbeteren ook de "
+"mondgezondheid en het algehele welzijn. Een mooie glimlach moet er niet "
+"alleen goed uitzien; het moet goed aanvoelen en perfect functioneren."
+
+#: .\website\templates\blog-single.html:39 .\website\views.py:399
+msgid ""
+"Furthermore, the impact of cosmetic dentistry goes beyond the surface. A "
+"transformed smile has the power to boost confidence, enhance social "
+"interactions, and even positively affect professional opportunities. It's a "
+"testament to the profound connection between our oral and emotional well-"
+"being."
+msgstr ""
+"Bovendien reikt de impact van cosmetische tandheelkunde verder dan de "
+"oppervlakte. Een getransformeerde glimlach heeft de kracht om het "
+"zelfvertrouwen te vergroten, sociale interacties te verbeteren en zelfs "
+"professionele kansen positief te beïnvloeden. Het is een bewijs van het "
+"diepgaande verband tussen ons orale en emotionele welzijn."
+
+#: .\website\templates\blog-single.html:40 .\website\views.py:400
+msgid ""
+"In conclusion, unlocking the secrets to a beautiful smile through cosmetic "
+"dentistry is not just about enhancing appearances; it's about embracing a "
+"new level of self-confidence and well-being. It's about understanding that a "
+"radiant smile is within reach, and it's achievable through the expertise and "
+"artistry of cosmetic dentistry."
+msgstr ""
+"Concluderend: het ontsluiten van de geheimen van een mooie glimlach door "
+"middel van cosmetische tandheelkunde gaat niet alleen over het verbeteren "
+"van het uiterlijk; het gaat over het omarmen van een nieuw niveau van "
+"zelfvertrouwen en welzijn. Het gaat erom te begrijpen dat een stralende "
+"glimlach binnen handbereik is, en dat deze haalbaar is dankzij de expertise "
+"en kunstzinnigheid van cosmetische tandheelkunde."
+
+#: .\website\templates\blog-single.html:41 .\website\views.py:401
+msgid ""
+"So, I invite each of you to explore this captivating world, to consider the "
+"possibilities, and to envision the smile of your dreams. It's not just a "
+"journey to a beautiful smile; it's a journey to a more confident, radiant, "
+"and empowered you."
+msgstr ""
+"Daarom nodig ik jullie allemaal uit om deze boeiende wereld te verkennen, de "
+"mogelijkheden te overwegen en je de glimlach van je dromen voor te stellen. "
+"Het is niet alleen een reis naar een mooie glimlach; het is een reis naar "
+"een zelfverzekerder, stralender en krachtiger jij."
+
+#: .\website\templates\blog-single.html:42 .\website\views.py:402
+msgid ""
+"Thank you for joining me on this journey of discovery, and I hope that "
+"cosmetic dentistry continues to inspire and empower you to unlock the "
+"secrets to a beautiful smile."
+msgstr ""
+"Bedankt dat u met mij meegaat op deze ontdekkingsreis, en ik hoop dat "
+"cosmetische tandheelkunde u blijft inspireren en in staat stelt de geheimen "
+"van een mooie glimlach te ontsluiten."
+
+#: .\website\templates\blog-single.html:217 .\website\templates\blog.html:74
+#: .\website\templates\blog.html:199 .\website\views.py:380
+msgid "Behind the Scenes: What Really Happens During a Dental Checkup"
+msgstr ""
+"Achter de schermen: wat er echt gebeurt tijdens een tandheelkundige controle"
+
+#: .\website\templates\blog.html:39 .\website\views.py:377
+msgid ""
+"Today, let's embark on a journey together, a journey to unlock the secrets "
+"to a beautiful smile through the captivating world of cosmetic dentistry. In "
+"a world where confidence and self-assurance often begin with a smile, "
+"understanding the art and science behind a stunning smile is not just "
+"enlightening; it's empowering"
+msgstr ""
+"Laten we vandaag samen op reis gaan, een reis om de geheimen van een mooie "
+"glimlach te ontsluieren door de boeiende wereld van cosmetische "
+"tandheelkunde. In een wereld waar zelfvertrouwen en zelfverzekerdheid vaak "
+"beginnen met een glimlach, is het begrijpen van de kunst en wetenschap "
+"achter een verbluffende glimlach niet alleen verhelderend; het geeft kracht"
+
+#: .\website\templates\blog.html:40 .\website\templates\blog.html:58
+#: .\website\templates\blog.html:76 .\website\templates\blog.html:94
+#: .\website\templates\blog.html:112 .\website\templates\blog.html:130
+#: .\website\views.py:388
+msgid "Read more"
+msgstr "Lees verder"
+
+#: .\website\templates\blog.html:57 .\website\views.py:379
+msgid ""
+"Preventing dental issues starts with the basics: our daily oral hygiene "
+"habits. Something as simple as brushing and flossing can be the frontline "
+"defense against tooth decay and gum disease. These daily rituals are more "
+"than just tasks; they're acts of self-care that set the foundation for a "
+"lifetime of strong, healthy teeth and gums."
+msgstr ""
+"Laten we vandaag samen op reis gaan, een reis om de geheimen van een mooie "
+"glimlach te ontsluieren door de boeiende wereld van cosmetische "
+"tandheelkunde. In een wereld waar zelfvertrouwen en zelfverzekerdheid vaak "
+"beginnen met een glimlach, is het begrijpen van de kunst en wetenschap "
+"achter een verbluffende glimlach niet alleen verhelderend; het geeft kracht"
+
+#: .\website\templates\blog.html:75 .\website\views.py:381
+msgid ""
+"A dental checkup is not just a brief appointment; it's a comprehensive "
+"assessment of your oral health, a thorough examination that goes beyond what "
+"meets the eye. When you step into the dental chair, you're not just sitting "
+"down for a quick peek at your teeth; you're taking a proactive step towards "
+"maintaining your oral well-being"
+msgstr ""
+"Het voorkomen van tandheelkundige problemen begint bij de basis: onze "
+"dagelijkse mondhygiënegewoonten. Iets eenvoudigs als poetsen en flossen kan "
+"de eerste verdedigingslinie zijn tegen tandbederf en tandvleesaandoeningen. "
+"Deze dagelijkse rituelen zijn meer dan alleen taken; het zijn daden van "
+"zelfzorg die de basis leggen voor een leven lang sterke, gezonde tanden en "
+"tandvlees"
+
+#: .\website\templates\blog.html:92 .\website\views.py:382
+msgid "Oral Health at Every Age: A Guide to Pediatric to Geriatric Dentistry"
+msgstr ""
+"Mondgezondheid op elke leeftijd: een gids voor pediatrische tot geriatrische "
+"tandheelkunde"
+
+#: .\website\templates\blog.html:93 .\website\views.py:383
+msgid ""
+"Let's begin with the youngest members of our community: our children. "
+"Pediatric dentistry is not just about baby teeth; it's about setting the "
+"foundation for a lifetime of healthy smiles. Early dental visits, education "
+"about proper oral hygiene, and preventive measures like sealants are crucial "
+"in ensuring that our children grow up with strong, cavity-free teeth"
+msgstr ""
+"Een tandheelkundige controle is niet zomaar een korte afspraak; het is een "
+"uitgebreide beoordeling van uw mondgezondheid, een grondig onderzoek dat "
+"verder gaat dan wat op het eerste gezicht lijkt. Als u in de tandartsstoel "
+"stapt, gaat u niet alleen even zitten om even naar uw tanden te kijken; u "
+"zet een proactieve stap in de richting van het behoud van uw mondwelzijn"
+
+#: .\website\templates\blog.html:110 .\website\views.py:384
+msgid "The Connection Between Oral and Overall Health: What You Need to Know"
+msgstr ""
+"Het verband tussen mondgezondheid en algehele gezondheid: wat u moet weten"
+
+#: .\website\templates\blog.html:111 .\website\views.py:385
+msgid ""
+"The connection between oral health and overall health is a powerful one, "
+"often underestimated and overlooked. Yet, research and medical studies "
+"continually reveal the intricate relationship between the two. Our mouths "
+"are not isolated entities but rather gateways to our bodies, and what "
+"happens in our mouths can profoundly impact our overall health"
+msgstr ""
+"Het verband tussen mondgezondheid en algehele gezondheid is krachtig en "
+"wordt vaak onderschat en over het hoofd gezien. Toch brengen onderzoek en "
+"medische studies voortdurend de ingewikkelde relatie tussen deze twee aan "
+"het licht. Onze mond is geen geïsoleerde entiteit, maar eerder een "
+"toegangspoort tot ons lichaam. Wat er in onze mond gebeurt, kan een "
+"diepgaande invloed hebben op onze algehele gezondheid"
+
+#: .\website\templates\blog.html:128 .\website\views.py:386
+msgid "From Braces to Invisalign: A Comprehensive Guide to Orthodontic Options"
+msgstr ""
+"Van beugels tot Invisalign: een uitgebreide gids voor orthodontische opties"
+
+#: .\website\templates\blog.html:129 .\website\views.py:387
+msgid ""
+"Orthodontics is a field that has evolved significantly over the years, "
+"offering a wide spectrum of treatments to address various dental "
+"misalignments. Gone are the days when metal braces were the only option. "
+"Today, the choice is not just about straightening teeth but also about doing "
+"so comfortably, discreetly, and efficiently"
+msgstr ""
+"Laten we beginnen met de jongste leden van onze gemeenschap: onze kinderen. "
+"Kindertandheelkunde gaat niet alleen over melktanden; het gaat erom de basis "
+"te leggen voor een leven lang gezond glimlachen. Vroegtijdige "
+"tandartsbezoeken, voorlichting over goede mondhygiëne en preventieve "
+"maatregelen zoals kit zijn van cruciaal belang om ervoor te zorgen dat onze "
+"kinderen opgroeien met sterke, gaatjesvrije tanden"
+
+#: .\website\templates\blog.html:224 .\website\views.py:389
+msgid "Paragraph"
+msgstr "Paragraaf"
+
+#: .\website\templates\blog.html:225 .\website\views.py:390
+msgid ""
+"A dental care blog is more than just a collection of articles; it's a "
+"trusted resource that empowers individuals to take charge of their oral "
+"health. It serves as a beacon of knowledge, shedding light on the importance "
+"of dental hygiene, the latest advancements in dentistry, and practical tips "
+"for maintaining a radiant smile"
+msgstr ""
+"Een blog over tandheelkundige zorg is meer dan alleen een verzameling "
+"artikelen; het is een vertrouwde hulpbron die individuen in staat stelt de "
+"leiding te nemen over hun mondgezondheid. Het dient als een baken van kennis "
+"en werpt licht op het belang van mondhygiëne, de nieuwste ontwikkelingen in "
+"de tandheelkunde en praktische tips voor het behouden van een stralende "
+"glimlach."
+
+#: .\website\templates\contact.html:14 .\website\views.py:366
+msgid "Contact Us"
+msgstr "Neem contact met Ons op"
+
+#: .\website\templates\contact.html:52 .\website\views.py:367
+msgid "Contact Information"
+msgstr "Contactgegevens"
+
+#: .\website\templates\contact.html:56 .\website\views.py:368
+msgid "Address"
+msgstr "Adres"
+
+#: .\website\templates\contact.html:59 .\website\templates\home.html:110
+#: .\website\templates\register.html:91 .\website\views.py:246
+msgid "Phone"
+msgstr "Phone"
+
+#: .\website\templates\contact.html:73 .\website\views.py:369
+msgid "Your Name"
+msgstr "Uw Naam"
+
+#: .\website\templates\contact.html:76 .\website\views.py:370
+msgid "Your Email"
+msgstr "Jouw Email"
+
+#: .\website\templates\contact.html:79 .\website\views.py:371
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: .\website\templates\contact.html:82 .\website\views.py:372
+msgid "Message"
+msgstr "Bericht"
+
+#: .\website\templates\contact.html:85 .\website\views.py:373
+msgid "Send Message"
+msgstr "Bericht Versturen"
+
+#: .\website\templates\doctors.html:26 .\website\templates\home.html:241
+#: .\website\views.py:283
+msgid "Meet Our Experience Dentist"
+msgstr "Maak kennis met onze ervaren tandarts"
+
+#: .\website\templates\doctors.html:27 .\website\templates\home.html:242
+#: .\website\views.py:284
+msgid ""
+"Meet our experienced dentist, a dedicated professional committed to "
+"providing top-notch and ensuring your oral health is in the best hands."
+msgstr ""
+"Maak kennis met onze ervaren tandarts, een toegewijde professional die zich "
+"inzet om topkwaliteit te leveren en ervoor te zorgen dat uw mondgezondheid "
+"in de beste handen is."
+
+#: .\website\templates\doctors.html:36 .\website\templates\doctors.html:54
+#: .\website\templates\doctors.html:72 .\website\templates\doctors.html:90
+#: .\website\templates\doctors.html:108 .\website\templates\doctors.html:126
+#: .\website\templates\doctors.html:144 .\website\templates\doctors.html:162
+#: .\website\templates\home.html:251 .\website\templates\home.html:269
+#: .\website\templates\home.html:287 .\website\templates\home.html:305
+#: .\website\views.py:285
+msgid "Dentist"
+msgstr "Tandarts"
+
+#: .\website\templates\doctors.html:38 .\website\templates\doctors.html:56
+#: .\website\templates\doctors.html:74 .\website\templates\doctors.html:92
+#: .\website\templates\doctors.html:110 .\website\templates\doctors.html:128
+#: .\website\templates\doctors.html:146 .\website\templates\doctors.html:164
+#: .\website\templates\home.html:253 .\website\templates\home.html:271
+#: .\website\templates\home.html:289 .\website\templates\home.html:307
+#: .\website\views.py:286
+msgid ""
+"A dentist is a healthcare professional dedicated to preserving and enhancing "
+"oral health, ensuring patients' smiles radiate confidence and well-being."
+msgstr ""
+"Een tandarts is een beroepsbeoefenaar in de gezondheidszorg die zich inzet "
+"voor het behoud en de verbetering van de mondgezondheid, en ervoor zorgt dat "
+"de glimlach van patiënten vertrouwen en welzijn uitstraalt."
+
+#: .\website\templates\home.html:43 .\website\templates\register.html:155
+#: .\website\views.py:215
+msgid "Emergency Cases"
+msgstr "Noodgevallen"
+
+#: .\website\templates\home.html:44 .\website\templates\register.html:156
+#: .\website\views.py:216
+msgid ""
+"Please do not hesitate to contact me for any additional information or "
+"assistance required."
+msgstr ""
+"Aarzel niet om contact met mij op te nemen als u aanvullende informatie of "
+"hulp nodig heeft."
+
+#: .\website\templates\home.html:48 .\website\templates\register.html:160
+#: .\website\views.py:218
+msgid "Opening Hours"
+msgstr "Openingstijden"
+
+#: .\website\templates\home.html:50 .\website\templates\register.html:162
+#: .\website\views.py:219
+msgid "Monday - Friday"
+msgstr "Maandag - vrijdag"
+
+#: .\website\templates\home.html:54 .\website\templates\register.html:166
+#: .\website\views.py:220
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: .\website\templates\home.html:58 .\website\templates\register.html:170
+#: .\website\views.py:221
+msgid "Sunday"
+msgstr "Zondag"
+
+#: .\website\templates\home.html:72 .\website\views.py:224
+msgid "Department"
+msgstr "Afdeling"
+
+#: .\website\templates\home.html:73 .\website\templates\home.html:145
+#: .\website\templates\services.html:41 .\website\views.py:225
+msgid "Teeth Whitening"
+msgstr "Tanden bleken"
+
+#: .\website\templates\home.html:74 .\website\templates\home.html:157
+#: .\website\templates\services.html:53 .\website\views.py:226
+msgid "Teeth Cleaning"
+msgstr "Tanden schoonmaken"
+
+#: .\website\templates\home.html:75 .\website\views.py:227
+msgid "Quality Brackets"
+msgstr "Kwaliteit beugels"
+
+#: .\website\templates\home.html:76 .\website\templates\services.html:148
+#: .\website\views.py:228 .\website\views.py:232
+msgid "Modern Anesthetic"
+msgstr "Moderne anesthesie"
+
+#: .\website\templates\home.html:84 .\website\views.py:243
+msgid "Name"
+msgstr "Naam"
+
+#: .\website\templates\home.html:98 .\website\views.py:244
+msgid "Date"
+msgstr "Datum"
+
+#: .\website\templates\home.html:104 .\website\views.py:245
+msgid "Time"
+msgstr "Tijd"
+
+#: .\website\templates\home.html:128 .\website\templates\services.html:16
+#: .\website\templates\services.html:27 .\website\views.py:248
+msgid "Our Service Keeps you Smile"
+msgstr "Onze service zorgt ervoor dat u blijft lachen"
+
+#: .\website\templates\home.html:129 .\website\templates\services.html:28
+#: .\website\views.py:254
+msgid ""
+"We believe that a healthy smile is a confident smile; We're here to help you "
+"earn and keep that trust. Our vision: without compromising scientific, "
+"ethical, conscientious and humanitarian principles; modern treatments; To "
+"present it to you with our honest, reliable and experienced team."
+msgstr ""
+"Wij geloven dat een gezonde glimlach een zelfverzekerde glimlach is; Wij "
+"zijn er om u te helpen dat vertrouwen te verdienen en te behouden. Onze "
+"visie: zonder afbreuk te doen aan wetenschappelijke, ethische, gewetensvolle "
+"en humanitaire principes; moderne behandelingen; Om het u te presenteren met "
+"ons eerlijke, betrouwbare en ervaren team."
+
+#: .\website\templates\home.html:133 .\website\templates\services.html:29
+#: .\website\views.py:255
+msgid ""
+"At Blue Tulip, we pride ourselves on providing world-class services that "
+"will not only restore your oral health, but will also get you back to your "
+"radiant smile."
+msgstr ""
+"Bij Blue Tulip zijn we er trots op dat we diensten van wereldklasse bieden "
+"die niet alleen uw mondgezondheid herstellen, maar u ook terugbrengen naar "
+"uw stralende glimlach."
+
+#: .\website\templates\home.html:134 .\website\templates\services.html:30
+#: .\website\views.py:256
+msgid ""
+"With our friendly and experienced team, we restore your oral health in the "
+"comfort of your home. It protects your dental health with regular check-ups "
+"and treatments; We offer you a bright smile."
+msgstr ""
+"Met ons vriendelijke en ervaren team herstellen wij uw mondgezondheid in het "
+"comfort van uw huis. Het beschermt uw tandheelkundige gezondheid met "
+"regelmatige controles en behandelingen; Wij bieden u een stralende glimlach."
+
+#: .\website\templates\home.html:146 .\website\views.py:259
+msgid ""
+"Teeth whitening is a cosmetic procedure to brighten discolored or stained "
+"teeth, enhancing your smile's aesthetics."
+msgstr ""
+"Tanden bleken is een cosmetische procedure om verkleurde of verkleurde "
+"tanden op te helderen, waardoor de esthetiek van uw glimlach wordt verbeterd."
+
+#: .\website\templates\home.html:158 .\website\templates\services.html:42
+#: .\website\templates\services.html:54 .\website\views.py:258
+msgid ""
+"A routine dental cleaning involves the removal of plaque and tartar buildup "
+"from your teeth. It helps prevent gum disease and keeps your smile fresh and "
+"healthy."
+msgstr ""
+"Een routinematige gebitsreiniging omvat het verwijderen van tandplak en "
+"tandsteen van uw tanden. Het helpt tandvleesaandoeningen te voorkomen en "
+"houdt uw glimlach fris en gezond."
+
+#: .\website\templates\home.html:170 .\website\templates\services.html:65
+#: .\website\views.py:235
+msgid "Extractions"
+msgstr "Extracties"
+
+#: .\website\templates\home.html:171 .\website\templates\services.html:66
+#: .\website\views.py:261
+msgid ""
+"Dental extractions involve the removal of damaged or non-restorable teeth, "
+"often due to severe decay, infection, or crowding."
+msgstr ""
+"Tandextracties omvatten het verwijderen van beschadigde of niet-herstelbare "
+"tanden, vaak als gevolg van ernstig verval, infectie of verdringing."
+
+#: .\website\templates\home.html:182 .\website\templates\services.html:76
+#: .\website\views.py:230
+msgid "Fillings"
+msgstr "Vullingen"
+
+#: .\website\templates\home.html:183 .\website\templates\services.html:77
+#: .\website\views.py:260
+msgid ""
+"Dental fillings are used to repair cavities and restore damaged teeth. They "
+"can be made from materials like composite resin, amalgam, or porcelain."
+msgstr ""
+"Tandvullingen worden gebruikt om gaatjes te repareren en beschadigde tanden "
+"te herstellen. Ze kunnen worden gemaakt van materialen zoals composiethars, "
+"amalgaam of porselein."
+
+#: .\website\templates\home.html:321 .\website\views.py:293
+msgid ""
+"Today, I have the distinct pleasure of introducing you to the heart of our "
+"dental practice - our experienced dentist. Our dentist isn't just a "
+"professional; they are a dedicated healthcare provider with a wealth of "
+"expertise and a genuine commitment to your oral health and overall well-"
+"being."
+msgstr ""
+"Vandaag heb ik het genoegen u kennis te laten maken met het hart van onze "
+"tandartspraktijk: onze ervaren tandarts. Onze tandarts is niet zomaar een "
+"professional; zij zijn een toegewijde zorgverlener met een schat aan "
+"expertise en een oprechte toewijding aan uw mondgezondheid en algeheel "
+"welzijn."
+
+#: .\website\templates\home.html:458 .\website\views.py:303
+msgid "Subcribe to our Newsletter"
+msgstr "Abonneer u op onze nieuwsbrief"
+
+#: .\website\templates\home.html:459 .\website\views.py:304
+msgid ""
+"Subscribe to our newsletter to stay informed and receive regular updates, "
+"exclusive content, and valuable insights delivered directly to your inbox."
+msgstr ""
+"Abonneer u op onze nieuwsbrief om op de hoogte te blijven en ontvang "
+"regelmatig updates, exclusieve inhoud en waardevolle inzichten rechtstreeks "
+"in uw inbox."
+
+#: .\website\templates\home.html:464 .\website\views.py:305
+msgid "Enter email address"
+msgstr "Vul email adres in"
+
+#: .\website\templates\home.html:465 .\website\views.py:306
+msgid "Subscribe"
+msgstr "Abonneren"
+
+#: .\website\templates\home.html:525 .\website\views.py:315
+msgid "UI Designer"
+msgstr "UI-ontwerper"
+
+#: .\website\templates\home.html:603 .\website\views.py:321
+msgid ""
+"I encourage you to explore the world of dental blogs. Dive into the "
+"articles, absorb the knowledge, and empower yourself with the information "
+"needed to maintain a healthy, radiant smile. Your oral health journey begins "
+"with the click of a button, and the possibilities are endless."
+msgstr ""
+"Ik moedig je aan om de wereld van tandheelkundige blogs te verkennen. Duik "
+"in de artikelen, absorbeer de kennis en geef uzelf de informatie die nodig "
+"is om een gezonde, stralende glimlach te behouden. Uw reis naar "
+"mondgezondheid begint met een klik op de knop, en de mogelijkheden zijn "
+"eindeloos."
+
+#: .\website\templates\home.html:618 .\website\views.py:322
+msgid ""
+"Explore the connection between your diet and your dental health. Discover "
+"which foods are smile-friendly and which ones to consume in moderation."
+msgstr ""
+"Ontdek het verband tussen uw dieet en uw tandheelkundige gezondheid. Ontdek "
+"welke voedingsmiddelen glimlachvriendelijk zijn en welke je met mate moet "
+"consumeren."
+
+#: .\website\templates\home.html:634 .\website\views.py:323
+msgid ""
+"Parents, learn how to establish good oral hygiene habits early, find the "
+"right toothbrush for your child, and make dental visits a positive "
+"experience."
+msgstr ""
+"Ouders, leer hoe u vroegtijdig goede mondhygiënegewoonten kunt ontwikkelen, "
+"de juiste tandenborstel voor uw kind kunt vinden en van tandartsbezoeken een "
+"positieve ervaring kunt maken."
+
+#: .\website\templates\home.html:650 .\website\views.py:324
+msgid ""
+"Explore practical and effective tips for maintaining a dazzling smile, from "
+"proper brushing and flossing techniques to the benefits of mouthwash."
+msgstr ""
+"Ontdek praktische en effectieve tips voor het behouden van een "
+"oogverblindende glimlach, van de juiste poets- en flosstechnieken tot de "
+"voordelen van mondwater."
+
+#: .\website\templates\home.html:664 .\website\views.py:327
+msgid "Blue Tulip Procedure"
+msgstr "Blue Tulip Procedure"
+
+#: .\website\templates\home.html:664 .\website\views.py:328
+msgid "High Quality Services"
+msgstr "Diensten van hoge kwaliteit"
+
+#: .\website\templates\home.html:667 .\website\views.py:329
+msgid ""
+"I'm delighted to introduce you to the Blue Tulip Procedure and the "
+"exceptional high-quality services it represents. Blue Tulip is not just a "
+"dental treatment; it's a testament to our unwavering commitment to your oral "
+"health and well-being."
+msgstr ""
+"Ik ben blij om u kennis te laten maken met de Blue Tulip Procedure en de "
+"uitzonderlijk hoogwaardige dienstverlening die deze vertegenwoordigt. Blue "
+"Tulip is niet zomaar een tandheelkundige behandeling; het is een bewijs van "
+"onze niet-aflatende toewijding aan uw mondgezondheid en welzijn."
+
+#: .\website\templates\home.html:669 .\website\views.py:330
+msgid "innovation"
+msgstr "innovatie"
+
+#: .\website\templates\home.html:670 .\website\views.py:331
+msgid "dedication"
+msgstr "toewijding"
+
+#: .\website\templates\home.html:671 .\website\views.py:332
+msgid "cutting-edge technology"
+msgstr "geavanceerde technologie"
+
+#: .\website\templates\home.html:677 .\website\views.py:334
+msgid "Get a Free Quote"
+msgstr "Ontvang een gratis offerte"
+
+#: .\website\templates\home.html:708 .\website\views.py:335
+msgid "Get Quote"
+msgstr "Ontvang een offerte"
+
+#: .\website\templates\register.html:56 .\website\views.py:405
+msgid "Register at Blue Tulip"
+msgstr "Schrijf je in bij Blauwe Tulp"
+
+#: .\website\templates\register.html:58 .\website\views.py:406
+msgid ""
+"You are welcome to register with us. Please fill out the information below "
+"and we will contact you within two working days.Do you want to register more "
+"than one person such as your partner or children? After submitting the "
+"completed registration form, this page will automatically refresh to allow "
+"you to complete another registration form if necessary.Would you please "
+"bring your health care card on your first visit? Thanks in advance!"
+msgstr ""
+"U bent van harte welkom om u bij ons in te schrijven. Vult u onderstaande "
+"gegevens in en wij nemen binnen twee werkdagen contact met u op. Wilt u "
+"meerdere personen aanmelden, bijvoorbeeld uw partner of kinderen? Nadat u "
+"het ingevulde registratieformulier heeft verzonden, wordt deze pagina "
+"automatisch vernieuwd, zodat u indien nodig nog een registratieformulier "
+"kunt invullen. Wilt u bij het eerste bezoek uw zorgpas meenemen? Bij "
+"voorbaat bedankt!"
+
+#: .\website\templates\register.html:74 .\website\views.py:407
+msgid "First Name"
+msgstr "Voor Naam"
+
+#: .\website\templates\register.html:78 .\website\views.py:408
+msgid "Last Name"
+msgstr "Achter Naam"
+
+#: .\website\templates\register.html:82 .\website\views.py:409
+msgid "Gender"
+msgstr "Geslacht"
+
+#: .\website\templates\register.html:95 .\website\views.py:419
+msgid "Date of birth"
+msgstr "Geboortedatum"
+
+#: .\website\templates\register.html:99 .\website\views.py:410
+msgid "House Number"
+msgstr "Huis Nummer"
+
+#: .\website\templates\register.html:103 .\website\views.py:411
+msgid "City"
+msgstr "Stad"
+
+#: .\website\templates\register.html:107 .\website\views.py:412
+msgid "State"
+msgstr "Staat"
+
+#: .\website\templates\register.html:111 .\website\views.py:413
+msgid "Zipcode"
+msgstr "Postcode"
+
+#: .\website\templates\register.html:115 .\website\views.py:414
+msgid "Street"
+msgstr "Straat"
+
+#: .\website\templates\register.html:119 .\website\views.py:415
+msgid "How Do you hear about Us?"
+msgstr "Hoe hoor je over ons?"
+
+#: .\website\templates\register.html:123 .\website\views.py:416
+msgid "Question"
+msgstr "Vraag"
+
+#: .\website\templates\register.html:127 .\website\views.py:417
+msgid "Are you member?"
+msgstr "Bent u lid?"
+
+#: .\website\templates\register.html:136 .\website\views.py:418
+msgid "Register"
+msgstr "Register"
+
+#: .\website\templates\services.html:88 .\website\views.py:229
+msgid "Dental Checkup"
+msgstr "Tandheelkundige controle"
+
+#: .\website\templates\services.html:89 .\website\views.py:266
+msgid ""
+"Regular dental checkups are essential for maintaining oral health. Dentists "
+"examine your teeth, gums, and mouth for signs of issues, allowing for early "
+"intervention."
+msgstr ""
+"Regelmatige tandheelkundige controles zijn essentieel voor het behoud van de "
+"mondgezondheid. Tandartsen onderzoeken uw tanden, tandvlees en mond op "
+"tekenen van problemen, waardoor vroegtijdig ingrijpen mogelijk is."
+
+#: .\website\templates\services.html:100 .\website\views.py:231
+msgid "Dental Bridges"
+msgstr "Tandheelkundige bruggen"
+
+#: .\website\templates\services.html:101 .\website\templates\services.html:149
+#: .\website\views.py:267
+msgid ""
+"Bridges are used to replace missing teeth by anchoring artificial teeth to "
+"adjacent natural teeth, improving both function and appearance."
+msgstr ""
+"Bruggen worden gebruikt om ontbrekende tanden te vervangen door kunsttanden "
+"te verankeren aan aangrenzende natuurlijke tanden, waardoor zowel de functie "
+"als het uiterlijk worden verbeterd."
+
+#: .\website\templates\services.html:112 .\website\views.py:233
+msgid "Dental Implants"
+msgstr "Tandheelkundige implantaten"
+
+#: .\website\templates\services.html:113 .\website\views.py:264
+msgid ""
+"Dental implants are titanium posts surgically placed in the jawbone to "
+"support artificial teeth. They provide a durable, long-term solution for "
+"missing teeth."
+msgstr ""
+"Tandimplantaten zijn titanium stiften die operatief in het kaakbot worden "
+"geplaatst om kunsttanden te ondersteunen. Ze bieden een duurzame oplossing "
+"voor de lange termijn voor ontbrekende tanden."
+
+#: .\website\templates\services.html:124 .\website\views.py:236
+msgid "Pediatric Dentistry"
+msgstr "Kindertandheelkunde"
+
+#: .\website\templates\services.html:125 .\website\views.py:265
+msgid ""
+"Pediatric dentists specialize in children's dental care, offering services "
+"tailored to young patients' unique needs."
+msgstr ""
+"Kindertandartsen zijn gespecialiseerd in tandheelkundige zorg voor kinderen "
+"en bieden diensten aan die zijn afgestemd op de unieke behoeften van jonge "
+"patiënten."
+
+#: .\website\templates\services.html:137 .\website\views.py:234
+msgid "Root Canal Treatment"
+msgstr "Wortelkanaalbehandeling"
+
+#: .\website\templates\services.html:138 .\website\views.py:263
+msgid ""
+"Root canal therapy involves removing infected or damaged pulp from a tooth, "
+"preserving the tooth and relieving pain caused by infection."
+msgstr ""
+"Wortelkanaaltherapie omvat het verwijderen van geïnfecteerde of beschadigde "
+"pulpa van een tand, het behouden van de tand en het verlichten van pijn "
+"veroorzaakt door een infectie."
+
+#: .\website\templates\services.html:160 .\website\views.py:238
+#, fuzzy
+#| msgid "Dental Bridges"
+msgid "Dental Crowns"
+msgstr "Tandheelkundige bruggen"
+
+#: .\website\templates\services.html:161 .\website\views.py:268
+msgid ""
+"Crowns are tooth-shaped caps that are placed over damaged or weakened teeth "
+"to restore their strength, shape, and appearance."
+msgstr ""
+"Kronen zijn tandvormige kappen die over beschadigde of verzwakte tanden "
+"worden geplaatst om hun kracht, vorm en uiterlijk te herstellen."
+
+#: .\website\templates\services.html:172 .\website\views.py:237
+#, fuzzy
+#| msgid "Root Canal Treatment"
+msgid "Orthodontic Treatment"
+msgstr "Wortelkanaalbehandeling"
+
+#: .\website\templates\services.html:173 .\website\views.py:262
+msgid ""
+"Orthodontic procedures, including braces and aligners, are used to correct "
+"misaligned teeth and bite issues for improved oral health and aesthetics."
+msgstr ""
+"Orthodontische procedures, waaronder beugels en aligners, worden gebruikt om "
+"verkeerd uitgelijnde tanden en bijtproblemen te corrigeren voor een betere "
+"mondgezondheid en esthetiek."
+
+#: .\website\views.py:205
+msgid "hello"
+msgstr "Hoi"
+
+#: .\website\views.py:269
+msgid ""
+"Quality brackets in the context of dentistry typically refer to orthodontic "
+"brackets used in braces. These brackets play a crucial role in orthodontic "
+"treatment as they are attached to the patient's teeth and serve as the "
+"anchor points for the archwires that guide the movement of teeth into their "
+"proper positions."
+msgstr ""
+"Kwaliteitsbeugels in de context van de tandheelkunde verwijzen doorgaans "
+"naar orthodontische beugels die in beugels worden gebruikt. Deze beugels "
+"spelen een cruciale rol bij orthodontische behandelingen, omdat ze aan de "
+"tanden van de patiënt worden bevestigd en dienen als ankerpunten voor de "
+"boogdraden die de beweging van de tanden naar de juiste positie leiden."
+
+#: .\website\views.py:287
+msgid "Assistant"
+msgstr "Assistent"
+
+#: .\website\views.py:288
+msgid ""
+"A dentist assistant is a crucial part of the dental team, offering support "
+"and ensuring the smooth operation of the practice, while also assisting in "
+"patient care."
+msgstr ""
+"Een tandartsassistent is een cruciaal onderdeel van het tandheelkundig team. "
+"Hij biedt ondersteuning en zorgt voor een goede werking van de praktijk, "
+"terwijl hij ook helpt bij de patiëntenzorg."
+
+#: .\website\views.py:289
+msgid "Reception Employee"
+msgstr "Receptie Medewerker"
+
+#: .\website\views.py:290
+msgid ""
+"A reception employee serves as the welcoming face of an organization, "
+"adeptly managing inquiries, appointments, and the flow of visitors to create "
+"a positive and efficient experience."
+msgstr ""
+"Een receptiemedewerker fungeert als het gastvrije gezicht van een "
+"organisatie en beheert op bekwame wijze vragen, afspraken en de "
+"bezoekersstroom om een positieve en efficiënte ervaring te creëren."
+
+#: .\website\views.py:291
+msgid "IT Expert"
+msgstr "ICT Expert"
+
+#: .\website\views.py:292
+msgid ""
+"An IT expert possesses the technical prowess to troubleshoot, optimize, and "
+"innovate in the digital realm, ensuring that technology empowers and enables "
+"seamless operations across various domains."
+msgstr ""
+"Een IT-expert beschikt over de technische bekwaamheid om problemen op te "
+"lossen, te optimaliseren en te innoveren in de digitale wereld, en ervoor te "
+"zorgen dat technologie naadloze operaties in verschillende domeinen mogelijk "
+"maakt."
+
+#: .\website\views.py:325
+msgid ""
+"Discover why routine dental checkups are your best defense against oral "
+"health issues and how they can save you time, money, and discomfort in the "
+"long run."
+msgstr ""
+"Ontdek waarom routinematige tandheelkundige controles uw beste verdediging "
+"zijn tegen mondgezondheidsproblemen en hoe ze u op de lange termijn tijd, "
+"geld en ongemak kunnen besparen."
+
+#: .\website\views.py:363
+msgid ""
+"In conclusion, when we say, 'Help Our Customers Needs,' we mean that your "
+"needs are at the forefront of our practice. Your smile is our mission, and "
+"we are dedicated to assisting you in achieving and maintaining optimal oral "
+"health. We are not just your dental care providers; we are your partners in "
+"a journey toward a healthier, happier smile"
+msgstr ""
+"Concluderend: als we zeggen: 'Help de behoeften van onze klanten', bedoelen "
+"we dat uw behoeften voorop staan in onze praktijk. Uw glimlach is onze "
+"missie en wij streven ernaar u te helpen bij het bereiken en behouden van "
+"een optimale mondgezondheid. Wij zijn niet alleen uw tandheelkundige "
+"zorgverleners; wij zijn uw partners op weg naar een gezondere, gelukkiger "
+"glimlach."
+
+#, fuzzy
+#~| msgid ""
+#~| "Today, let's embark on a journey together, a journey to unlock the "
+#~| "secrets to a beautiful smile through the captivating world of cosmetic "
+#~| "dentistry. In a world where confidence and self-assurance often begin "
+#~| "with a smile, understanding the art and science behind a stunning smile "
+#~| "is not just enlightening; it's empowering"
+#~ msgid ""
+#~ "Today, let's embark on a journey together, a journey to unlock the "
+#~ "secrets to a beautiful smile through the captivating world of cosmetic "
+#~ "dentistry. In a world where confidence and self-assurance often begin "
+#~ "with a smile, understanding the art and science behind a stunning smile "
+#~ "is not just enlightening; it's empowering."
+#~ msgstr ""
+#~ "Laten we vandaag samen op reis gaan, een reis om de geheimen van een "
+#~ "mooie glimlach te ontsluieren door de boeiende wereld van cosmetische "
+#~ "tandheelkunde. In een wereld waar zelfvertrouwen en zelfverzekerdheid "
+#~ "vaak beginnen met een glimlach, is het begrijpen van de kunst en "
+#~ "wetenschap achter een verbluffende glimlach niet alleen verhelderend; het "
+#~ "geeft kracht"
+
+#~ msgid ""
+#~ "A small river named Duden flows by their place and supplies it with the "
+#~ "necessary regelialia."
+#~ msgstr ""
+#~ "Een kleine rivier genaamd Duden stroomt langs hun plaats en voorziet deze "
+#~ "van de nodige regelialia."
+
+#, fuzzy
+#~| msgid ""
+#~| "A small river named Duden flows by their place and supplies it with the "
+#~| "necessary regelialia."
+#~ msgid "A small river named Duden flows by their place and supplies"
+#~ msgstr ""
+#~ "Een kleine rivier genaamd Duden stroomt langs hun plaats en "
+#~ "voorradenEenkleine rivier genaamd Duden stroomt langs hun plaats en "
+#~ "voorziet deze van de nodige regelialia."

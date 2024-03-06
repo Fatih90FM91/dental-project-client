@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %} contact White Tulip {% endblock %}
+
+{% block content %}
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item bread-item bg-1"  data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container" data-scrollax-parent="true">
+          <div class="row slider-text align-items-end">
+            <div class="col-md-7 col-sm-12 ftco-animate mb-5">
+              <p class="breadcrumbs" data-scrollax=" properties: { translateY: '70%', opacity: 1.6}"><span class="mr-2"><a href="/">Home</a></span> <span>Blog</span></p>
+              <h1 class="mb-3" data-scrollax=" properties: { translateY: '70%', opacity: .9}">{% translate "Contact Us" %}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+    {% if message_contact %}
+
+  	<div class="list-services d-flex ftco-animate">
+      <div class="icon d-flex justify-content-center align-items-center">
+        <span class="icon-check2"></span>
+      </div>
+      <div class="text">
+        <h3>Hello {{name}}</h3>
+        <p>We hope this message finds you well. We are excited to confirm your upcoming dental appointment with [Dental Practice Name] on [Date] at [Time].</p>
+        <h6>Appointment Details:</h6>
+        <lu>
+          <li>Date: [Date]</li>
+          <li>Time: [Time]</li>
+          <li>Dentist: [Dentist's Name]</li>
+          <li>Procedure: [Type of Procedure]</li>
+          <li>Location: [Dental Practice Address]</li>
+        </lu>
+        <p>Please arrive 15 minutes before your scheduled appointment time. If you need to reschedule or have any questions, 
+          please don't hesitate to contact our office at [Phone Number]. We value your commitment to your oral health and look forward to providing you with the best dental care.</p>
+        <p>Thank you for choosing [Dental Practice Name] for your dental needs. We appreciate your trust in us.</p>
+        <p>Best regards,
+          The [Dental Practice Name] Team</p>
+      </div>
+    </div>
+      
+    {% else %}
+
+    <section class="ftco-section contact-section ftco-degree-bg">
+      <div class="container">
+        <div class="row d-flex mb-5 contact-info">
+          <div class="col-md-12 mb-4">
+            <h2 class="h4">{% translate "Contact Information" %}</h2>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-3">
+            <p><span>{% translate "Address" %}:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+          </div>
+          <div class="col-md-3">
+            <p><span>{% translate "Phone" %}:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+          </div>
+          <div class="col-md-3">
+            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+          </div>
+          <div class="col-md-3">
+            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+          </div>
+        </div>
+        <div class="row block-9">
+          <div class="col-md-6 pr-md-5">
+            <form action="{% url 'contact' %}" method="post">
+              {% csrf_token %}
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder='{% translate "Your Name" %}' name ='name'>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder='{% translate "Your Email" %}' name ='email'>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder='{% translate "Subject" %}' name ='subject'>
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder='{% translate "Message" %}' ></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value='{% translate "Send Message" %}' class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6" id="map"></div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    {% endif %}
+
+
+    {% endblock %}

@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %} Appointment White Tulip {% endblock %}
+
+{% block content %}
+
+
+
+<section class="home-slider owl-carousel home-style">
+  <div class="slider-item bg-1" >
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row slider-text align-items-center" data-scrollax-parent="true">
+        <div class="col-md-6 col-sm-12 ftco-animate home-heading-style" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Modern Dentistry in a Calm and Relaxed Environment" %}</h1>
+          <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Transform Your Smile with Modern Dentistry: Achieve Your Desired Perfect Smile through Innovative Techniques and Expert Care" %}</p>
+          <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="contact.html" class="btn btn-primary px-4 py-3" >{% translate "Make an Appointment" %}</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-item bg-2" >
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row slider-text align-items-center" data-scrollax-parent="true">
+        <div class="col-md-6 col-sm-12 ftco-animate home-heading-style" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{% translate "Modern Achieve Your Desired Perfect Smile" %}</h1>
+          <p class="mb-4">{% translate "Transform Your Smile with Modern Dentistry: Achieve Your Desired Perfect Smile through Innovative Techniques and Expert Care" %}</p>
+          <p><a href="#" class="btn btn-primary px-4 py-3">{% translate "Make an Appointment" %}</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="ftco-section contact-section ftco-degree-bg">
+<div class="list-services d-flex ftco-animate">
+    <div class="icon d-flex justify-content-center align-items-center">
+    
+    </div>
+    
+    <div class="text">
+      <h3>Hello {{message_appointment.name}}</h3>
+      <p>We hope this message finds you well. We are excited to confirm your upcoming dental appointment with Blue Tulip.</p>
+      <h6>Appointment Details:</h6>
+      <lu>
+        <!-- <li>Date: {{message_appointment.date}}</li>
+        <li>Time: {{message_appointment.time}}</li> -->
+        <!-- <li>Dentist: [Dentist's Name]</li> -->
+        <li>Examination: {{message_appointment.examination_selection}}</li>
+        <li>Location: [Dental Practice Address]</li>
+      </lu>
+      <p>Please arrive 15 minutes before your scheduled appointment time.If you need to reschedule or have any questions, 
+        please don't hesitate to contact our office at [Phone Number]. We value your commitment to your oral health and look forward to providing you with the best dental care.</p>
+      <p>Thank you for choosing Blue Tulip for your dental needs. We appreciate your trust in us.</p>
+      <p>Best regards,
+        The Blue Tulip Team</p>
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

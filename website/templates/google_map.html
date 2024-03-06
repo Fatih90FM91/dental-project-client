@@ -1,0 +1,42 @@
+{% load static %}
+
+
+<html>
+  <head>
+    <title>Add Map</title>
+
+    <style>
+      #map {
+        height: 500px;
+        width: 100%; }
+        @media (max-width: 991.98px) {
+          #map {
+            height: 300px; } }
+        </style>
+   
+  </head>
+
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <script>
+
+      function initMap(){
+        let uluru = {lat: 52.0940203, lng: 4.3851613}
+        let map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 14, center: uluru}
+        );
+        let marker = new google.maps.Marker({position: uluru, map: map})
+      }
+
+    </script>
+
+     <script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC13pn9RRKj2JwT6LQIIwLWzZWIP_cV7RY&callback=initMap"></script>
+
+    
+     <!-- <script type="module" src="{% static 'website/js/google-map.js' %}"></script>
+     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
+  </body>
+</html>
